@@ -1,5 +1,5 @@
 ## Dome
-### 学习框架或者编程语言的一些Dome
+### 学习框架或者编程思想时的一些Dome
  **1，Spring** 
  
  **2，SpringBoot** 
