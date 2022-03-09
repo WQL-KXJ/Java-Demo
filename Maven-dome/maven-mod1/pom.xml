@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>maven-mod1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!--定义多环境-->
+    <profiles>
+        <profile>
+        <id>dev</id>
+            <properties>
+                <jdbc.name>user</jdbc.name>
+                <jdbc.password>123</jdbc.password>
+                <jdbc.url>jdbc:mysql://localhost:3306/dev</jdbc.url>
+                <jdbc.drive>com.mysql.jdbc.Driver</jdbc.drive>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>test</id>
+            <properties>
+                <jdbc.name>user</jdbc.name>
+                <jdbc.password>123</jdbc.password>
+                <jdbc.url>jdbc:mysql://localhost:3306/test</jdbc.url>
+                <jdbc.drive>com.mysql.jdbc.Driver</jdbc.drive>
+            </properties>
+        </profile>
+
+        <profile>
+            <id>pro</id>
+            <properties>
+                <jdbc.name>user</jdbc.name>
+                <jdbc.password>123</jdbc.password>
+                <jdbc.url>jdbc:mysql://localhost:3306/pro</jdbc.url>
+                <jdbc.drive>com.mysql.jdbc.Driver</jdbc.drive>
+            </properties>
+        </profile>
+    </profiles>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>junit</groupId>
+                <artifactId>junit</artifactId>
+                <version>4.11</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>2.11.2</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

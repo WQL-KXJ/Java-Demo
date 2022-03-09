@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cfe403f7-9b1f-4f58-8c07-f5c603fea759" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="209" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1tOnb3XgZDktACabG2RnPtlAr14" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Dome\netty-dome\src\main\java\protobuf_dome" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientBootstrap">
+    <configuration name="ClientBootstrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dubboRPC.consumer.ClientBootstrap" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dubboRPC.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerBootStrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dubboRPC.provider.ServerBootStrap" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dubboRPC.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="client_netty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dome1.client_netty" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dome1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="server_netty (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dome1.server_netty" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dome1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="websocket_server_netty" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WebSocket_netty.websocket_server_netty" />
+      <module name="netty-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WebSocket_netty.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.client_netty" />
+      <item itemvalue="Application.websocket_server_netty" />
+      <item itemvalue="Application.server_netty (1)" />
+      <item itemvalue="Application.ServerBootStrap" />
+      <item itemvalue="Application.ClientBootstrap" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ClientBootstrap" />
+        <item itemvalue="Application.ServerBootStrap" />
+        <item itemvalue="Application.websocket_server_netty" />
+        <item itemvalue="Application.client_netty" />
+        <item itemvalue="Application.server_netty (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cfe403f7-9b1f-4f58-8c07-f5c603fea759" name="Default Changelist" comment="" />
+      <created>1622649070813</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622649070813</updated>
+      <workItem from="1622649073737" duration="52467000" />
+      <workItem from="1623076484220" duration="13669000" />
+      <workItem from="1623424279045" duration="1495000" />
+      <workItem from="1623462611582" duration="14354000" />
+      <workItem from="1623978522242" duration="237000" />
+      <workItem from="1625670583435" duration="2192000" />
+      <workItem from="1625749983201" duration="3191000" />
+      <workItem from="1625891851262" duration="6714000" />
+      <workItem from="1626017218656" duration="15000" />
+      <workItem from="1633782469314" duration="776000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1623056848473">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1623056848473" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623067314549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1623067314549" />
+    <state x="505" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623424225087">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="505" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1623424225087" />
+    <state x="190" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1625908850730">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="190" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1625908850730" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1626017231936">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1626017231936" />
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1625910461375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1625910461375" />
+    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1625910461375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1625910461375" />
+    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1625910461375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1625910461375" />
+    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1625910461375">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1625910461375" />
+    <state width="1493" height="566" key="GridCell.Tab.1.bottom" timestamp="1623076466679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="566" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1623076466679" />
+    <state width="1493" height="566" key="GridCell.Tab.1.center" timestamp="1623076466679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="566" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1623076466679" />
+    <state width="1493" height="566" key="GridCell.Tab.1.left" timestamp="1623076466679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="566" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1623076466679" />
+    <state width="1493" height="566" key="GridCell.Tab.1.right" timestamp="1623076466679">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="566" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1623076466679" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1626017219485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1626017219485" />
+    <state x="390" y="138" width="755" height="548" key="find.popup" timestamp="1623424197419">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="390" y="138" width="755" height="548" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1623424197419" />
+    <state x="178" y="117" key="new project wizard" timestamp="1623978758351">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1623978758351" />
+    <state x="41" y="189" key="run.anything.popup" timestamp="1623588228962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="41" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1623588228962" />
+    <state x="32" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1625894119096">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="32" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1625894119096" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/netty_dome$client_chat_netty.ic" NAME="client_chat_netty Coverage Results" MODIFIED="1623067178068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>char_room.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/netty_dome$server_netty.ic" NAME="server_netty Coverage Results" MODIFIED="1622821414466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>dome1.*</FILTER>
+    </SUITE>
+  </component>
+</project>

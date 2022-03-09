@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>maven-mod2</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <parent>
+        <groupId>org.example</groupId>
+        <artifactId>maven-mod1</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../maven-mod1/pom.xml</relativePath>
+    </parent>
+
+
+
+
+    <properties>
+        <jdbc.name>user</jdbc.name>
+        <jdbc.password>123</jdbc.password>
+        <jdbc.url>jdbc:mysql://localhost:3306/test</jdbc.url>
+        <jdbc.drive>com.mysql.jdbc.Driver</jdbc.drive>
+    </properties>
+
+
+    <dependencies>
+    <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+    </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+</dependencies>
+
+<build>
+
+    <resources>
+        <resource>
+            <!--设置外部配置的位置，支持使用内置属性动态配置-->
+            <directory>../maven-mod2/src/main/resources</directory>
+            <!--开启外部配置文件加载过滤-->
+            <filtering>true</filtering>
+        </resource>
+    </resources>
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-source-plugin</artifactId>
+            <executions>
+                <execution>
+                    <goals>
+                        <goal>jar</goal>
+                    </goals>
+                    <phase>package</phase>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
+
+</project>

@@ -1,0 +1,12 @@
+2021-02-03 17:44:54.765 [main] DEBUG org.mybatis.generator.logging.LogFactory - Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@3159c4b8' adapter.
+2021-02-03 17:44:54.768 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "bm"
+2021-02-03 17:44:54.783 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "managementsystem..bm"
+2021-02-03 17:44:54.784 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "branch", data type 12, in table "managementsystem..bm"
+2021-02-03 17:44:54.790 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "employee"
+2021-02-03 17:44:54.795 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "managementsystem..employee"
+2021-02-03 17:44:54.795 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "name", data type 12, in table "managementsystem..employee"
+2021-02-03 17:44:54.795 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "bmid", data type 4, in table "managementsystem..employee"
+2021-02-03 17:44:54.796 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "gender", data type 12, in table "managementsystem..employee"
+2021-02-03 17:44:54.796 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "age", data type 4, in table "managementsystem..employee"
+2021-02-03 17:44:54.796 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "phone", data type 12, in table "managementsystem..employee"
+2021-02-03 17:44:54.796 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "addr", data type 12, in table "managementsystem..employee"

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a03d1b10-172a-4b95-9a1b-2e5d68b778d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../rabbitmq-dome/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/PriorityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../netty-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../netty-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/helloworld/comsumer_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/helloworld/comsumer_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/helloworld/publish_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/helloworld/publish_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/pub_sub/pub_sub_publish.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/pub_sub/pub_sub_publish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/pub_sub/pub_sub_util.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/src/main/java/rabbitmq_work_mold/pub_sub/pub_sub_util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/META-INF/rabbitmq_dome.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/puback/puback_publish.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/puback/puback_publish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/helloworld/comsumer_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/helloworld/comsumer_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/helloworld/publish_test.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/helloworld/publish_test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/pub_sub/pub_sub_publish.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/pub_sub/pub_sub_publish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/pub_sub/pub_sub_util.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/pub_sub/pub_sub_util.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/workqueue/workqueue_consumer1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/workqueue/workqueue_consumer1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/workqueue/workqueue_consumer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbitmq-dome/target/classes/rabbitmq_work_mold/workqueue/workqueue_consumer1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/spring_rabbitmq/consumer_test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/spring_rabbitmq/consumer_test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/ConfirmConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/ConfirmConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/Delay_Plugin_Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/Delay_Plugin_Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/TTL_Dead_Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/TTL_Dead_Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/mycallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/config/mycallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/consumer/rabbitlistener.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/java/com/wql/springboot_rabbitmq/consumer/rabbitlistener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../springboot_rabbitmq/src/test/java/com/wql/springboot_rabbitmq/SpringbootRabbitmqApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot_rabbitmq/src/test/java/com/wql/springboot_rabbitmq/SpringbootRabbitmqApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-map" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1z7Xog2jPUUkVwuWc5xNVdVAgdh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../springboot_rabbitmq" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="JUnit.publishtest.holleworld_test">
+    <configuration name="consumer_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring_rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.spring_rabbitmq.consumer_test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="consumer_test.consumer_test_wql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq-dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_rabbitmq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring_rabbitmq" />
+      <option name="MAIN_CLASS_NAME" value="com.spring_rabbitmq.consumer_test" />
+      <option name="METHOD_NAME" value="consumer_test_wql" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="publishtest.holleworld_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring_rabbitmq-dome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="publishtest" />
+      <option name="METHOD_NAME" value="holleworld_test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.consumer_test.consumer_test_wql" />
+        <item itemvalue="JUnit.publishtest.holleworld_test" />
+        <item itemvalue="JUnit.consumer_test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a03d1b10-172a-4b95-9a1b-2e5d68b778d6" name="Default Changelist" comment="" />
+      <created>1633500275831</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633500275831</updated>
+      <workItem from="1633500279495" duration="2437000" />
+      <workItem from="1633509837021" duration="30000" />
+      <workItem from="1633510191593" duration="9025000" />
+      <workItem from="1633526819554" duration="191000" />
+      <workItem from="1634029681082" duration="459000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="506" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633510657515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="506" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1633510657515" />
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser" timestamp="1633520023205">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="132" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1633520023205" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1634030143159">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634030143159" />
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom" timestamp="1633526628761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633526628761" />
+    <state width="1493" height="203" key="GridCell.Tab.0.center" timestamp="1633526628761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1633526628761" />
+    <state width="1493" height="203" key="GridCell.Tab.0.left" timestamp="1633526628761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1633526628761" />
+    <state width="1493" height="203" key="GridCell.Tab.0.right" timestamp="1633526628761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="203" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1633526628761" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1633526904932">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633526904932" />
+    <state x="178" y="117" key="new project wizard" timestamp="1633527009856">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1633527009856" />
+    <state x="442" y="105" key="spring file set editor" timestamp="1633510517650">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="442" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1633510517650" />
+  </component>
+</project>

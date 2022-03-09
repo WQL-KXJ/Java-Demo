@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                             http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com"/>
+
+    <bean name="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <mvc:resources mapping="/img/**" location="/static/img/"/>
+    
+    <!--开放servlet对静态资源的访问-->
+    <mvc:default-servlet-handler/>
+    <!--mvc驱动-->
+    <mvc:annotation-driven/>
+    <!--文件上传解析器，注意整个bean的id是必须要配置为multipartResolver底层是通过id来导入的-->
+    <bean id="multipartResolver"
+          class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+        <!-- 默认编码 -->
+        <property name="defaultEncoding" value="utf-8" />
+        <!-- 设置multipart请求所允许的最大大小，默认不限制 -->
+        <property name="maxUploadSize" value="10485760000" />
+        <!-- 设置一个大小，multipart请求小于这个大小时会存到内存中，大于这个内存会存到硬盘中 -->
+        <property name="maxInMemorySize" value="40960" />
+    </bean>
+
+    <!--拦截器-->
+<!--    <mvc:interceptors>-->
+<!--        <mvc:interceptor>-->
+<!--            <ref bean="interceptor"/>-->
+<!--            <mvc:mapping path="**/wql"/>-->
+<!--            <mvc:exclude-mapping path="/fq/wql"/>-->
+<!--        </mvc:interceptor>-->
+<!--    </mvc:interceptors>-->
+
+    <bean class="org.springframework.web.servlet.handler.SimpleMappingExceptionResolver">
+        <!--配置exceptionMappings异常映射属性，这个属性是Properties类型-->
+        <property name="exceptionMappings">
+            <!--设置该属性中的子属性-->
+            <props>
+                <!--prop的key指需要处理的异常类型(异常类型非常多,需要全类名),标签的值为跳转的页面名称
+                    prop为遇到上面类型的异常跳转到那个页面
+                -->
+            <prop key="java.lang.ArithmeticException">error</prop>
+            </props>
+        </property>
+
+        <!--配置exceptionAttribute属性，这个属性可以将错误信息存储到域中，但要设置key来接收
+        错误信息为值，value就为key
+        -->
+        <property name="exceptionAttribute" value="wql_err"/>
+    </bean>
+
+
+</beans>

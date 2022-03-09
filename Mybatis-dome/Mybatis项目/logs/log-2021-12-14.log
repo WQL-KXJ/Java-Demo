@@ -1,0 +1,29 @@
+2021-12-14 08:42:37.355 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2021-12-14 08:42:37.422 [main] DEBUG com.fq.iprople.select2_COUNT - ==>  Preparing: SELECT count(0) FROM prople 
+2021-12-14 08:42:37.453 [main] DEBUG com.fq.iprople.select2_COUNT - ==> Parameters: 
+2021-12-14 08:43:04.790 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2021-12-14 08:43:04.842 [main] DEBUG com.fq.iprople.select2_COUNT - ==>  Preparing: SELECT count(0) FROM prople 
+2021-12-14 08:43:04.866 [main] DEBUG com.fq.iprople.select2_COUNT - ==> Parameters: 
+2021-12-14 08:43:04.880 [main] DEBUG com.fq.iprople.select2_COUNT - <==      Total: 1
+2021-12-14 08:43:04.882 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; LIMIT ? 
+2021-12-14 08:43:04.883 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 2(Integer)
+2021-12-14 08:45:27.522 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2021-12-14 08:45:27.582 [main] DEBUG com.fq.iprople.select2_COUNT - ==>  Preparing: SELECT count(0) FROM prople 
+2021-12-14 08:45:27.612 [main] DEBUG com.fq.iprople.select2_COUNT - ==> Parameters: 
+2021-12-14 08:45:27.623 [main] DEBUG com.fq.iprople.select2_COUNT - <==      Total: 1
+2021-12-14 08:45:27.628 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople LIMIT ? 
+2021-12-14 08:45:27.629 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 2(Integer)
+2021-12-14 08:45:27.631 [main] DEBUG com.fq.iprople.select2 - <==      Total: 2
+2021-12-14 08:45:37.336 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2021-12-14 08:45:37.395 [main] DEBUG com.fq.iprople.select2_COUNT - ==>  Preparing: SELECT count(0) FROM prople 
+2021-12-14 08:45:37.418 [main] DEBUG com.fq.iprople.select2_COUNT - ==> Parameters: 
+2021-12-14 08:45:37.424 [main] DEBUG com.fq.iprople.select2_COUNT - <==      Total: 1
+2021-12-14 08:45:37.433 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; LIMIT ? 
+2021-12-14 08:45:37.434 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 2(Integer)
+2021-12-14 08:45:43.887 [main] DEBUG SQL_CACHE - Cache Hit Ratio [SQL_CACHE]: 0.0
+2021-12-14 08:45:43.939 [main] DEBUG com.fq.iprople.select2_COUNT - ==>  Preparing: SELECT count(0) FROM prople 
+2021-12-14 08:45:43.972 [main] DEBUG com.fq.iprople.select2_COUNT - ==> Parameters: 
+2021-12-14 08:45:43.976 [main] DEBUG com.fq.iprople.select2_COUNT - <==      Total: 1
+2021-12-14 08:45:43.985 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople LIMIT ? 
+2021-12-14 08:45:43.986 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 2(Integer)
+2021-12-14 08:45:43.988 [main] DEBUG com.fq.iprople.select2 - <==      Total: 2

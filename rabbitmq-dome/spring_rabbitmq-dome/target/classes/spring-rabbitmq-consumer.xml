@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <!--加载properties配置文件-->
+    <context:property-placeholder location="classpath:rabbitmq.properties"/>
+
+    <!--创建rabbitmq工厂，并配置连接信息-->
+    <rabbit:connection-factory id="factory" host="${rabbitmq.host}"
+                               port="${rabbitmq.port}"
+                               username="${rabbitmq.name}"
+                               password="${rabbitmq.password}"
+                               virtual-host="${rabbitmq.virtual-host}"/>
+
+    <!--消息者实现非常简单，定义一个bean将他放入rabbitmq监听器中即可，监听器声明它要消费的队列
+    注：实体baen需要实现MessageListener接口即可
+    -->
+    <bean id="spring_rabbit_listener" class="com.spring_rabbitmq.spring_rabbitmq_consumer"/>
+
+    <!--监听者-->
+    <rabbit:listener-container connection-factory="factory" auto-declare="true">
+        <!--添加监听，并指定监听的队列-->
+        <rabbit:listener ref="spring_rabbit_listener" queue-names="spring_fanout_queue1"/>
+
+    </rabbit:listener-container>
+</beans>

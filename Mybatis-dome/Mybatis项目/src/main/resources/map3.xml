@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.duobiao.Iwqluser">
+
+    <cache eviction="LRU"></cache>
+
+    <resultMap id="wql" type="com.duobiao.wqluser">
+        <id property="id" column="id"/>
+        <result  column="name" property="name"/>
+        <result  column="age" property="age"/>
+        <result column="xb"  property="xb"/>
+        <result column="bmid" property="bmid"/>
+       <!-- <result column="id" property="bms.id"/>
+        <result  column="bmname" property="bms.bmname"/>
+        -->
+        <association property="bms" javaType="com.duobiao.bm"    >
+            <result column="bmname" property="bmname"/>
+            <result column="id" property="id"/>
+
+        </association>
+    </resultMap>
+
+    <!--分步查询-->
+    <resultMap id="wqlusers" type="com.duobiao.wqluser">
+    <id property="id" column="id"/>
+    <result  column="name" property="name"/>
+    <result  column="age" property="age"/>
+    <result column="xb"  property="xb"/>
+    <result column="bmid" property="bmid"/>
+
+    <association property="bms" select="select3" column="bmid"/>
+</resultMap>
+
+    <resultMap id="bms" type="com.duobiao.bm">
+        <result column="id" property="id"/>
+        <result  column="bmname" property="bmname"/>
+    </resultMap>
+
+    <select id="select1" resultMap="wql" useCache="true">
+        select prople.id,bm.bmname,prople.name,prople.age,prople.xb,prople.bmid from prople left  join bm on prople.bmid=bm.id
+    </select>
+
+    <select id="select2" resultMap="wqlusers">
+        select id,name,age,xb,bmid from prople where id=#{a}
+    </select>
+
+    <select id="select3" resultMap="bms">
+
+        select * from bm where id=#{b}
+
+    </select>
+    <insert id="insert" parameterType="com.fq.prople" flushCache="true">
+
+        insert into prople (id,name,age,xb,bmid) values (#{id},#{name},#{age},#{xb},#{bmid})
+
+    </insert>
+
+</mapper>

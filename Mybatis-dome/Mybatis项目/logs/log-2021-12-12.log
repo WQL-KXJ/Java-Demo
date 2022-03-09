@@ -1,0 +1,378 @@
+2021-12-12 18:49:01.804 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:49:01.824 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:49:01.878 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:49:30.745 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:49:30.765 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:49:30.818 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:49:30.818 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:49:30.819 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:49:30.820 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:50:20.836 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:50:20.855 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:50:20.905 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:50:37.838 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:50:37.859 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:50:37.908 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:50:37.908 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:50:37.908 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:50:37.909 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:51:43.196 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:51:43.217 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:51:43.267 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:51:43.267 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:51:43.267 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 18:51:43.268 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:53:28.660 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:53:28.679 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:53:28.727 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:53:28.727 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:53:28.728 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 18:53:28.729 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:54:07.246 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:54:07.268 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:54:07.316 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:54:07.317 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:54:07.317 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 18:54:07.318 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:54:19.928 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:54:19.950 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:54:20.002 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:54:20.002 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:54:20.002 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 4(Integer)
+2021-12-12 18:54:20.003 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:58:06.454 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:58:06.474 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:58:06.525 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:58:06.528 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:58:06.528 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 4(Integer)
+2021-12-12 18:58:06.529 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:59:59.421 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:59:59.441 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 18:59:59.493 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 18:59:59.496 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 18:59:59.496 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 4(Integer)
+2021-12-12 18:59:59.497 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:00:37.440 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:00:37.459 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:00:37.515 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:00:37.515 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:00:37.515 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:00:37.516 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:00:37.520 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:00:37.520 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 4(Integer)
+2021-12-12 19:00:37.521 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:00:37.521 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:00:37.521 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 2(Integer)
+2021-12-12 19:00:37.522 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:02:11.395 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:02:11.418 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:02:11.470 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:02:11.471 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:02:11.471 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:02:11.472 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:02:11.475 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:02:11.475 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:02:11.476 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:02:11.476 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:02:11.476 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:02:11.477 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:03:28.369 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:03:28.389 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:03:28.441 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:03:28.441 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:03:28.442 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:03:28.442 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:03:59.623 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:03:59.642 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:03:59.693 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:03:59.694 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:03:59.694 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:03:59.695 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:04:15.765 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:04:15.784 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:04:15.838 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:04:15.839 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:04:15.839 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:04:15.839 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:04:15.840 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:04:15.840 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:04:15.841 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:04:15.841 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:04:15.841 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:04:15.842 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:06:39.064 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:06:39.086 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:06:39.138 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:06:39.138 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:06:39.138 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:06:39.139 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:07:33.021 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:07:33.044 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:07:33.096 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:07:33.096 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:07:33.097 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:07:33.097 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:07:33.097 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:07:33.098 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 19:07:33.098 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:07:33.099 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:07:33.099 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 2(Integer)
+2021-12-12 19:07:33.099 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 19:07:47.361 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 19:07:47.383 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 19:07:47.436 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 19:07:47.437 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 19:07:47.437 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 19:07:47.438 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 20:43:17.171 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 20:43:17.193 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 20:43:17.243 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 20:43:17.244 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 20:43:17.244 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 20:43:17.245 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 20:43:17.248 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 20:43:17.248 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 20:43:17.249 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 20:43:17.249 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 20:43:17.249 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 20:43:17.250 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:22:54.027 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:22:54.049 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:22:54.097 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:22:54.097 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:22:54.098 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:22:54.098 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:22:54.099 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:22:54.099 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 21:22:54.099 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:22:54.100 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:22:54.100 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 2(Integer)
+2021-12-12 21:22:54.100 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:36:55.822 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:36:55.842 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:36:55.894 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:36:55.895 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:36:55.895 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:36:55.895 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:36:55.896 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:36:55.896 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 30(Integer), FQ-WQL(String), 10(Integer), 1(String), 1(Integer)
+2021-12-12 21:37:11.479 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:37:11.499 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:37:11.550 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:37:11.551 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:37:11.551 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:37:11.552 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:37:11.552 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?,'') 
+2021-12-12 21:37:11.552 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 30(Integer), FQ-WQL(String), 10(Integer), 1(String), 1(Integer)
+2021-12-12 21:38:57.541 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:38:57.560 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:38:57.610 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:38:57.610 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:38:57.610 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:38:57.611 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:38:57.611 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:38:57.612 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 30(Integer), FQ-WQL(String), 10(Integer), 1(String), 1(Integer)
+2021-12-12 21:40:43.508 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:40:43.527 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:40:43.577 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:40:43.578 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:40:43.578 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:40:43.579 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:40:43.579 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:40:43.579 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 30(Integer), FQ-WQL(String), 10(Integer), 1(String), 1(Integer)
+2021-12-12 21:41:24.877 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:41:24.901 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:41:24.954 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:41:24.955 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:41:24.955 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:41:24.956 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:41:24.956 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:41:24.957 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQ-WQL(String), 10(Integer), 1(String), 1(Integer)
+2021-12-12 21:43:50.413 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:43:50.439 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:43:50.489 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:43:50.489 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:43:50.489 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:43:50.490 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:43:50.490 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:43:50.491 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQ-WQL(String), 10(Integer), 男(String), 1(Integer)
+2021-12-12 21:44:13.702 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:44:13.726 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:44:13.779 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:44:13.780 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:44:13.780 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:44:13.781 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:44:13.781 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm values (?,?,?,?,?) 
+2021-12-12 21:44:13.782 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQWQL(String), 10(Integer), 男(String), 1(Integer)
+2021-12-12 21:45:12.423 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:45:12.447 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:45:12.495 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:45:12.495 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:45:12.496 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:45:12.496 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:45:12.496 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into bm (id,name,age,xb,bmid) values (?,?,?,?,?) 
+2021-12-12 21:45:12.497 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQWQL(String), 10(Integer), 男(String), 1(Integer)
+2021-12-12 21:46:10.707 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:10.728 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:10.782 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:10.782 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:10.783 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:10.783 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:10.783 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into prople (id,name,age,xb,bmid) values (?,?,?,?,?) 
+2021-12-12 21:46:10.784 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQWQL(String), 10(Integer), 男(String), 1(Integer)
+2021-12-12 21:46:10.785 [main] DEBUG com.duobiao.Iwqluser.insert - <==    Updates: 1
+2021-12-12 21:46:10.785 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:10.785 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 21:46:10.786 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:10.786 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:10.786 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 2(Integer)
+2021-12-12 21:46:10.786 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:40.384 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:40.404 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:40.458 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:40.459 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:40.459 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:40.460 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:40.460 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:40.460 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 2(Integer)
+2021-12-12 21:46:40.461 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:40.461 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:40.461 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 2(Integer)
+2021-12-12 21:46:40.462 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:48.647 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:48.668 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:48.720 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:48.720 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:48.720 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:48.721 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:58.912 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:58.930 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:58.977 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:58.978 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:58.978 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:58.979 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:46:58.979 [main] DEBUG com.duobiao.Iwqluser.insert - ==>  Preparing: insert into prople (id,name,age,xb,bmid) values (?,?,?,?,?) 
+2021-12-12 21:46:58.980 [main] DEBUG com.duobiao.Iwqluser.insert - ==> Parameters: 5(Integer), FQWQL(String), 10(Integer), 男(String), 1(Integer)
+2021-12-12 21:46:58.980 [main] DEBUG com.duobiao.Iwqluser.insert - <==    Updates: 1
+2021-12-12 21:46:58.980 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:46:58.980 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:58.981 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:46:58.981 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:46:58.981 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:46:58.982 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:48:51.098 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:48:51.123 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:48:51.177 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:48:51.178 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:48:51.178 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:48:51.179 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:49:04.348 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:49:04.367 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:49:04.417 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:49:04.418 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:49:04.418 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:49:04.419 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 21:49:04.419 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 21:49:04.419 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 21:49:04.420 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 21:49:04.420 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 21:49:04.420 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 21:49:04.421 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:56:16.463 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:16.630 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:56:16.649 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:16.700 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:56:16.700 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:16.700 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:56:16.701 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:16.701 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:56:16.702 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:16.704 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:56:16.705 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:16.705 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:56:16.706 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:16.706 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:56:16.706 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:16.706 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:56:53.054 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:53.222 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:56:53.240 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:53.291 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:56:53.291 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:53.292 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:56:53.292 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:53.292 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:56:53.293 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:53.296 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:56:53.296 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:53.297 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:56:53.297 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:56:53.297 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:56:53.297 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:56:53.298 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:57:16.960 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:17.123 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:57:17.141 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:17.194 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:57:17.194 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:17.194 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:57:17.194 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:17.195 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:57:17.195 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:17.198 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:57:17.198 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:17.199 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:57:17.199 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:17.199 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:57:17.199 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:17.200 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:57:58.445 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:58.624 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:57:58.647 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:58.698 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:57:58.698 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:58.698 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:57:58.698 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:58.699 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:57:58.699 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:58.703 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:57:58.703 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:58.704 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:57:58.704 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:57:58.704 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:57:58.704 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:57:58.705 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:59:09.475 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:09.661 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:59:09.679 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:09.734 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:59:09.734 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:09.734 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:59:09.734 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:09.735 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:59:09.743 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.3333333333333333
+2021-12-12 23:59:46.644 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:46.809 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:59:46.833 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:46.884 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:59:46.884 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:46.884 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:59:46.884 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:46.885 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:59:46.885 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:46.888 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:59:46.888 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:46.889 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:59:46.889 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:46.889 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:59:46.889 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:46.890 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:59:57.959 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:58.123 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-12 23:59:58.145 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:58.196 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-12 23:59:58.196 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.0
+2021-12-12 23:59:58.196 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-12 23:59:58.196 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-12 23:59:58.197 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2021-12-12 23:59:58.205 [main] DEBUG com.duobiao.Iwqluser - Cache Hit Ratio [com.duobiao.Iwqluser]: 0.3333333333333333

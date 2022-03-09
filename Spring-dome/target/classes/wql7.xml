@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+        <!--定义一个父类的抽象方法，本身不是实现让子类继承-->
+        <bean id="wql" class="com.springwql.fuleijicwql" abstract="true">
+            <property name="a" value="666666"></property>
+        </bean>
+
+        <bean id="wql1" class="com.springwql.fuleijicwql" parent="wql">
+
+        </bean>
+
+</beans>

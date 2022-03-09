@@ -1,0 +1,21 @@
+2020-11-28 19:33:58.409 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-11-28 19:33:58.434 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-11-28 19:33:58.484 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-11-28 19:39:10.227 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-11-28 19:39:10.246 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-11-28 19:39:10.290 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-11-28 19:39:10.290 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-11-28 19:39:10.291 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-11-28 19:39:10.294 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2020-11-28 19:39:25.753 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-11-28 19:39:25.783 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-11-28 19:39:25.826 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-11-28 19:39:25.826 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-11-28 19:39:25.827 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-11-28 19:39:25.830 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2020-11-28 20:11:32.259 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-11-28 20:11:32.284 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-11-28 20:11:32.329 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-11-28 20:11:32.329 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-11-28 20:11:32.330 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-11-28 20:11:32.333 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
+                             http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                                http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
+
+    <!--注解扫描，只扫描Controller-->
+    <context:component-scan base-package="wql"/>
+    <!--1，配置项目的名称-->
+    <dubbo:application name="dubbo-web">
+        <dubbo:parameter key="qos.port" value="6666"></dubbo:parameter>
+    </dubbo:application>
+    <!--2，配置注册中心的地址(zookeeper的地址)-->
+    <dubbo:registry address="zookeeper://192.168.68.153:2181"  timeout="250000"/>    <!--配置dubbo的包扫描-->
+    <dubbo:annotation package="wql"/>
+
+    <!--配置视图解析器-->
+    <bean name="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+    <!--MVC驱动-->
+    <mvc:annotation-driven/>
+</beans>

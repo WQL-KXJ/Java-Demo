@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wql.Iuser">
+    <!--查询数据-->
+    <select id="findall" resultType="user" >
+        select * from fq
+    </select>
+    <!--插入数据-->
+    <insert id="insert" parameterType="com.wql.user">
+        insert into fq values (${id},'${name}',${random})
+    </insert>
+    <!--删除语句-->
+    <delete id="delete" parameterType="Int" >
+        delete from fq where id=#{a}
+    </delete>
+    <!--更新-->
+    <update id="update">
+        update fq set name='${name}' where id=${id}
+    </update>
+
+
+        </mapper>

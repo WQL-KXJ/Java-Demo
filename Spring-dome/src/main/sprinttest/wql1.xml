@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--依赖注入：有参构造注入和set注入-->
+    <!--有参构造-->
+    <bean id="fq" class="com.springwql.FQLOVE">
+        <constructor-arg name="a" value="傅晴"/>
+    </bean>
+    <!--set方式注入-->
+    <bean id="fq1" class="com.springwql.FQLOVE">
+     <property name="a" value="love傅晴"></property>
+    </bean>
+    <!--p命名空间方式:头部需要加-->
+    <!-- xmlns:p="http://www.springframework.org/schema/p" -->
+    <bean id="fq2" class="com.springwql.FQLOVE" p:a="傅晴loveWQL"></bean>
+</beans>

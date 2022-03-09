@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1f1a886f-4dec-4688-bb7a-bc5f071c2086" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Juc_dome">
+      <favorite_root url="file://$PROJECT_DIR$/src/jol-core-0.15.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="253739yN9riq7K0OlEmzF4FAAcB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/秒杀项目/seckill" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Dome\Juc_dome" />
+      <recent name="F:\Dome\Juc_dome\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.dome1">
+    <configuration name="dome1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaObjectLayout.dome1" />
+      <module name="Juc_dome" />
+      <option name="VM_PARAMETERS" value="-XX:BiasedLockingStartupDelay=0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaObjectLayout.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lockbreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SynchronizedCharacter.lockbreak" />
+      <module name="Juc_dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SynchronizedCharacter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="locknotbreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SynchronizedCharacter.locknotbreak" />
+      <module name="Juc_dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SynchronizedCharacter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="synchronizeddome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SynchronizedCharacter.synchronizeddome" />
+      <module name="Juc_dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SynchronizedCharacter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="synchronizednotbreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SynchronizedCharacter.synchronizednotbreak" />
+      <module name="Juc_dome" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SynchronizedCharacter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.dome1" />
+      <item itemvalue="Application.lockbreak" />
+      <item itemvalue="Application.locknotbreak" />
+      <item itemvalue="Application.synchronizeddome" />
+      <item itemvalue="Application.synchronizednotbreak" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.dome1" />
+        <item itemvalue="Application.synchronizednotbreak" />
+        <item itemvalue="Application.synchronizeddome" />
+        <item itemvalue="Application.lockbreak" />
+        <item itemvalue="Application.locknotbreak" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f1a886f-4dec-4688-bb7a-bc5f071c2086" name="Default Changelist" comment="" />
+      <created>1644743714245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644743714245</updated>
+      <workItem from="1644743718063" duration="3685000" />
+      <workItem from="1645363832791" duration="25256000" />
+      <workItem from="1645778173528" duration="629000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1645619099574">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1645619099574" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1645364306799">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1645364306799" />
+    <state x="484" y="67" key="#jol-core-0.15.jar" timestamp="1645609896872">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="484" y="67" key="#jol-core-0.15.jar/0.0.1536.824@0.0.1536.824" timestamp="1645609896872" />
+    <state x="707" y="406" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1645609947076">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="707" y="406" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1645609947076" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1645778200709">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1645778200709" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1645757156321">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1645757156321" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1645757156320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1645757156320" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1645757156320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1645757156320" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1645757156320">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1645757156320" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1645618619029">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1645618619029" />
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1645778173549">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1645778173549" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1645609357688">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1645609357688" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1645624911521">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1645624911521" />
+  </component>
+</project>

@@ -1,0 +1,6 @@
+
+fdfs:
+  so-timeout: 1500
+  connect-timeout: 600
+  tracker-list:
+    - 192.168.68.133:22122

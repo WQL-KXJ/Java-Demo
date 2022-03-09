@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-.xsd">
+    aop
+    <!--引入配置文件-->
+    <context:property-placeholder location="mysql.properties"/>
+
+    <bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource" destroy-method="close">
+        <property name="username" value="${name}"/>
+        <property name="password" value="${password}"/>
+        <property name="url" value="${url}"/>
+        <property name="driverClassName" value="${drive}"/>
+    </bean>
+
+    <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">
+        <property name="dataSource" ref="datasource"/>
+    </bean>
+
+    <!--目标对象-->
+    <bean id="proxy" class="com.aop.proxy"/>
+
+    <!--切面对象-->
+    <bean id="myaspect" class="com.aop.MyAspect"/>
+
+    <!--配置织入，告诉spring框架哪些连接点方法可以被增强-->
+    <aop:config>
+        <!--声明切面-->
+        <aop:aspect ref="myaspect">
+            <!--配置切面-->
+            <aop:after method="before" pointcut="execution(public void com.aop.proxy.common())"/>
+        </aop:aspect>
+
+    </aop:config>
+
+    <context:component-scan base-package="com.dao"/>
+</beans>

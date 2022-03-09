@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+<!--bean的作用域：单例singleton还多例prototype-->
+    <!--单例-->
+    <bean id="fq" class="com.springwql.FQLOVE" scope="singleton">
+        <property name="a" value="作用域:单例"></property>
+    </bean>
+
+    <!--多例-->
+    <bean  id="fq1" class="com.springwql.FQLOVE" scope="prototype">
+        <property name="a" value="作用域:多例"></property>
+    </bean >
+
+</beans>

@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b4c13ea5-ae48-4c3c-b5ee-c2ec192e05ac" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1V9acSQDU2KOr6HTODHePlzzJEw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdk1.6.0/bin/javap.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.1150748" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalTools" />
+  </component>
+  <component name="RunManager" selected="Application.text2">
+    <configuration name="传统方法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="传统方法" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Object" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Object" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Workcount" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Workcount" />
+      <module name="java" />
+      <option name="PROGRAM_PARAMETERS" value="$PROJECT_DIR$/../lajiwj/wql.txt $PROJECT_DIR$/../lajiwj/out" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="观察者" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="观察者" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="装饰者模式" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="设计模式.装饰者模式" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="设计模式.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="text" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="text2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="text2" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="textwq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="textwq" />
+      <module name="java" />
+      <option name="VM_PARAMETERS" value="-Xms10m -Xmx10m " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="twq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="twq" />
+      <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Workcount" />
+      <item itemvalue="Application.传统方法" />
+      <item itemvalue="Application.textwq" />
+      <item itemvalue="Application.Object" />
+      <item itemvalue="Application.twq" />
+      <item itemvalue="Application.text (1)" />
+      <item itemvalue="Application.text2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.text2" />
+        <item itemvalue="Application.text (1)" />
+        <item itemvalue="Application.twq" />
+        <item itemvalue="Application.textwq" />
+        <item itemvalue="Application.Object" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\wql\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4c13ea5-ae48-4c3c-b5ee-c2ec192e05ac" name="Default Changelist" comment="" />
+      <created>1576667843848</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576667843848</updated>
+      <workItem from="1576667846548" duration="12591000" />
+      <workItem from="1576935872909" duration="5378000" />
+      <workItem from="1577622287168" duration="1695000" />
+      <workItem from="1578221424198" duration="292000" />
+      <workItem from="1578221763156" duration="32000" />
+      <workItem from="1578221992721" duration="91000" />
+      <workItem from="1578222131955" duration="115000" />
+      <workItem from="1578223091536" duration="80000" />
+      <workItem from="1578223245616" duration="78000" />
+      <workItem from="1580116204952" duration="849000" />
+      <workItem from="1591845454153" duration="8861000" />
+      <workItem from="1592224628197" duration="11716000" />
+      <workItem from="1592407478891" duration="8334000" />
+      <workItem from="1592751378894" duration="11122000" />
+      <workItem from="1592962460245" duration="730000" />
+      <workItem from="1593316520683" duration="10229000" />
+      <workItem from="1598247978981" duration="1430000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Project_Structure" timestamp="1593337635405">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1593337635405" />
+    <state x="129" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592753132765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="129" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1592753132765" />
+    <state x="525" y="63" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598248767555">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="525" y="63" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1598248767555" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1593399702060">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1593399702060" />
+    <state x="510" y="202" width="469" height="450" key="#com.intellij.tools.ToolEditorDialog" timestamp="1598248776155">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="510" y="202" width="469" height="450" key="#com.intellij.tools.ToolEditorDialog/0.0.1536.824@0.0.1536.824" timestamp="1598248776155" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1598248746232">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598248746232" />
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom" timestamp="1598250025372">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598250025372" />
+    <state width="1493" height="153" key="GridCell.Tab.0.center" timestamp="1598250025371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598250025371" />
+    <state width="1493" height="153" key="GridCell.Tab.0.left" timestamp="1598250025370">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598250025370" />
+    <state width="1493" height="153" key="GridCell.Tab.0.right" timestamp="1598250025371">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="153" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598250025371" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1593403949813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593403949813" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1593403949813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1593403949813" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1593403949813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1593403949813" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1593403949813">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1593403949813" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1598248777651">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1598248777651" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1593316520581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593316520581" />
+    <state x="178" y="29" key="new project wizard" timestamp="1593403941476">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="29" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1593403941476" />
+    <state x="374" y="286" key="run.anything.popup" timestamp="1593318138329">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="374" y="286" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1593318138329" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592227553468">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592227553468" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/map$Workcount.ic" NAME="Workcount Coverage Results" MODIFIED="1576866595497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

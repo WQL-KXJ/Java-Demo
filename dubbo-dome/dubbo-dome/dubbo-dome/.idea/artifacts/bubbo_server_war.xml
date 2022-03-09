@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="bubbo-server:war">
+    <output-path>$PROJECT_DIR$/../bubbo-server/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>bubbo-server</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="bubbo-server-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="bubbo-server:war exploded" />
+    </root>
+  </artifact>
+</component>

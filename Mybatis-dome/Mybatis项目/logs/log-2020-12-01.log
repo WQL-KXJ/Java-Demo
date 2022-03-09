@@ -1,0 +1,75 @@
+2020-12-01 00:13:07.744 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-12-01 00:13:07.762 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-12-01 00:13:07.772 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4
+2020-12-01 00:14:01.314 [main] DEBUG com.wql.Iuser.update - ==>  Preparing: update fq set name=? where id=? 
+2020-12-01 00:14:01.335 [main] DEBUG com.wql.Iuser.update - ==> Parameters: SB(String), 19(Integer)
+2020-12-01 00:14:01.335 [main] DEBUG com.wql.Iuser.update - <==    Updates: 1
+2020-12-01 00:15:41.009 [main] DEBUG com.wql.Iuser.update - ==>  Preparing: update fq set name='SB' where id=19 
+2020-12-01 00:15:41.028 [main] DEBUG com.wql.Iuser.update - ==> Parameters: 
+2020-12-01 00:15:41.029 [main] DEBUG com.wql.Iuser.update - <==    Updates: 1
+2020-12-01 18:19:12.515 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id=? 
+2020-12-01 18:19:12.536 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 1(Integer)
+2020-12-01 18:19:12.547 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:21:54.932 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id=? 
+2020-12-01 18:21:54.955 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 1(Integer)
+2020-12-01 18:21:54.968 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:24:25.435 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = id 
+2020-12-01 18:24:25.456 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 
+2020-12-01 18:24:25.467 [main] DEBUG com.testsw.fq123.select - <==      Total: 4
+2020-12-01 18:28:40.539 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 18:28:40.560 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 18:28:40.570 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:30:17.077 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 18:30:17.096 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 18:30:17.107 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:30:22.775 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = 2 
+2020-12-01 18:30:22.796 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 
+2020-12-01 18:30:22.806 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:30:48.056 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = 0 
+2020-12-01 18:30:48.076 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 
+2020-12-01 18:30:48.083 [main] DEBUG com.testsw.fq123.select - <==      Total: 0
+2020-12-01 18:31:00.738 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = 1 
+2020-12-01 18:31:00.761 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 
+2020-12-01 18:31:00.771 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:35:12.413 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 18:35:12.433 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 18:35:12.443 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:42:39.259 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 18:42:39.282 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 18:42:39.293 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 18:44:11.190 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 18:44:11.212 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 18:44:11.224 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 19:16:25.482 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? and bmname=? 
+2020-12-01 19:16:25.505 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer), 人力资源部(String)
+2020-12-01 19:16:25.515 [main] DEBUG com.testsw.fq123.select - <==      Total: 0
+2020-12-01 19:16:54.865 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 19:16:54.888 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 2(Integer)
+2020-12-01 19:16:54.899 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 19:20:19.764 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = ? 
+2020-12-01 19:20:19.783 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 1(Integer)
+2020-12-01 19:20:19.797 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 19:29:42.441 [main] DEBUG com.testsw.fq123.select - ==>  Preparing: select * from bm where id = 1 
+2020-12-01 19:29:42.459 [main] DEBUG com.testsw.fq123.select - ==> Parameters: 
+2020-12-01 19:29:42.469 [main] DEBUG com.testsw.fq123.select - <==      Total: 1
+2020-12-01 21:44:47.228 [main] DEBUG com.wqls.imbwql.select - ==>  Preparing: select * from bm 
+2020-12-01 21:44:47.255 [main] DEBUG com.wqls.imbwql.select - ==> Parameters: 
+2020-12-01 21:44:47.265 [main] DEBUG com.wqls.imbwql.select - <==      Total: 4
+2020-12-01 21:45:16.551 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-12-01 21:45:16.573 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-12-01 21:45:16.634 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-12-01 21:45:16.634 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-12-01 21:45:16.634 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-12-01 21:45:16.639 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2020-12-01 21:45:19.011 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-12-01 21:45:19.032 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-12-01 21:45:19.079 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-12-01 21:45:19.080 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-12-01 21:45:19.080 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-12-01 21:45:19.083 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1
+2020-12-01 21:59:48.128 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2020-12-01 21:59:48.146 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2020-12-01 21:59:48.193 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2020-12-01 21:59:48.193 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2020-12-01 21:59:48.193 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2020-12-01 21:59:48.197 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--注入外部bean对象，注入内部bean对象，级联赋值-->
+    <!--注入外部bean对象-->
+    <bean id="fq1" class="com.springwql.FQLOVE">
+       <!-- <property name="wql" ref="fq"></property>-->
+       <property name="wql" >
+           <!--注入空值-->
+        <null></null>
+       </property>
+    </bean>
+    <!--创建被注入外部bean对象-->
+    <bean id="fq" class="com.springwql.WQLLOVE">
+    <constructor-arg name="a" value="哈哈"/>
+    </bean>
+
+
+    <!--注入内部bean对象-->
+    <bean id="fq2" class="com.springwql.FQLOVE">
+        <property name="wql">
+            <bean id="cd" class="com.springwql.WQLLOVE">
+                <constructor-arg name="a" value="注入内部bean对象"></constructor-arg>
+            </bean>
+        </property>
+    </bean>
+
+    <!--级联赋值-->
+    <bean id="fq3" class="com.springwql.FQLOVE">
+        <!--必须引入对象-->
+        <property name="wql" ref="fq55"></property>
+        <!--级联赋值必须在调用对象的方法中声明get方法，因为他要引用这个对象，还必须要在对象方法中设置set方法，因为他要赋值-->
+        <property name="wql.a" value="级联赋值必须创建对象的get方法"/>
+    </bean>
+    <!--引入级联对象-->
+    <bean id="fq55" class="com.springwql.WQLLOVE">
+    </bean>
+
+</beans>

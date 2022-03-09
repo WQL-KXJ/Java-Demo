@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVCx项目:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVCx_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVC_WQL/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVC_WQL" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.4" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:2.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context-support:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-context:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-web:5.0.0.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.0.0.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

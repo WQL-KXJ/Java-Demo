@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--bean的创建-->
+    <bean id="fq" class="com.springwql.FQLOVE" scope="prototype">
+        <!--有参方法注入<constructor-arg name="a" value="傅晴"></constructor-arg>-->
+
+        <!--set方式注入-->
+        <!--<property name="a" value="王清霖"></property>-->
+    </bean>
+
+
+
+</beans>

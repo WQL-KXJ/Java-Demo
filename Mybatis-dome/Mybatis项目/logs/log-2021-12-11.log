@@ -1,0 +1,6 @@
+2021-12-11 20:46:59.033 [main] DEBUG com.duobiao.Iwqluser.select2 - ==>  Preparing: select id,name,age,xb,bmid from prople where id=? 
+2021-12-11 20:46:59.057 [main] DEBUG com.duobiao.Iwqluser.select2 - ==> Parameters: 1(Integer)
+2021-12-11 20:46:59.119 [main] DEBUG com.duobiao.Iwqluser.select2 - <==      Total: 1
+2021-12-11 20:46:59.120 [main] DEBUG com.duobiao.Iwqluser.select3 - ==>  Preparing: select * from bm where id=? 
+2021-12-11 20:46:59.120 [main] DEBUG com.duobiao.Iwqluser.select3 - ==> Parameters: 1(Integer)
+2021-12-11 20:46:59.121 [main] DEBUG com.duobiao.Iwqluser.select3 - <==      Total: 1

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:dubbo="http://dubbo.apache.org/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd
+                          http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd"
+        >
+
+<context:component-scan base-package="wql.serviceimpl"/>
+
+    <!--配置dubbo-->
+    <!--1，配置项目的名称-->
+    <dubbo:application name="dubbo-server"/>
+    <!--2，配置注册中心的地址(zookeeper的地址)-->
+    <dubbo:registry address="zookeeper://192.168.68.153:2181"  timeout="25000"/>
+    <!--配置dubbo的包扫描-->
+    <dubbo:annotation package="wql.serviceimpl"/>
+</beans>

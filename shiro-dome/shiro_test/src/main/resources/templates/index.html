@@ -1,0 +1,20 @@
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
+
+<head>
+    <title>首页</title>
+
+</head>
+
+<body>
+<h1>登录成功</h1>
+<button type="button" ><a href="/loginout">退出</a></button>
+</body>
+<ul>
+    <li>用户查看</li>
+    <shiro:hasRole name="admin">
+    <li>用户修改</li>
+    <li>用户添加</li>
+    </shiro:hasRole>
+</ul>
+</html>

@@ -1,0 +1,58 @@
+2020-11-30 13:48:40.325 [main] DEBUG com.wqls.imbwql.wqlfq - ==>  Preparing: select * from bm 
+2020-11-30 13:48:40.347 [main] DEBUG com.wqls.imbwql.wqlfq - ==> Parameters: 
+2020-11-30 13:48:40.358 [main] DEBUG com.wqls.imbwql.wqlfq - <==      Total: 4
+2020-11-30 17:50:37.660 [main] DEBUG com.wqls.imbwql.wqlfq - ==>  Preparing: select * from bm 
+2020-11-30 17:50:37.685 [main] DEBUG com.wqls.imbwql.wqlfq - ==> Parameters: 
+2020-11-30 17:50:37.697 [main] DEBUG com.wqls.imbwql.wqlfq - <==      Total: 4
+2020-11-30 17:52:56.425 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-11-30 17:52:56.449 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-11-30 17:52:56.463 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4
+2020-11-30 17:52:56.465 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; 
+2020-11-30 17:52:56.465 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 
+2020-11-30 17:52:56.471 [main] DEBUG com.fq.iprople.select2 - <==      Total: 4
+2020-11-30 17:52:57.679 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-11-30 17:52:57.702 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-11-30 17:52:57.713 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4
+2020-11-30 17:52:57.715 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; 
+2020-11-30 17:52:57.715 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 
+2020-11-30 17:52:57.721 [main] DEBUG com.fq.iprople.select2 - <==      Total: 4
+2020-11-30 17:53:01.207 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-11-30 17:53:01.232 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-11-30 17:53:01.243 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4
+2020-11-30 17:53:01.243 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; 
+2020-11-30 17:53:01.244 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 
+2020-11-30 17:53:01.248 [main] DEBUG com.fq.iprople.select2 - <==      Total: 4
+2020-11-30 17:53:19.486 [main] DEBUG com.wql.Iuser.findall - ==>  Preparing: select * from fq 
+2020-11-30 17:53:19.516 [main] DEBUG com.wql.Iuser.findall - ==> Parameters: 
+2020-11-30 17:53:19.528 [main] DEBUG com.wql.Iuser.findall - <==      Total: 10
+2020-11-30 17:55:31.874 [main] DEBUG com.wqls.imbwql.wqlfq - ==>  Preparing: select * from bm 
+2020-11-30 17:55:31.895 [main] DEBUG com.wqls.imbwql.wqlfq - ==> Parameters: 
+2020-11-30 17:55:31.906 [main] DEBUG com.wqls.imbwql.wqlfq - <==      Total: 4
+2020-11-30 17:58:54.440 [main] DEBUG com.wqls.imbwql.select - ==>  Preparing: select * from bm 
+2020-11-30 17:58:54.461 [main] DEBUG com.wqls.imbwql.select - ==> Parameters: 
+2020-11-30 17:58:54.473 [main] DEBUG com.wqls.imbwql.select - <==      Total: 4
+2020-11-30 19:25:36.434 [main] DEBUG com.wqls.imbwql.select - ==>  Preparing: select * from bm 
+2020-11-30 19:25:36.454 [main] DEBUG com.wqls.imbwql.select - ==> Parameters: 
+2020-11-30 19:25:36.466 [main] DEBUG com.wqls.imbwql.select - <==      Total: 4
+2020-11-30 19:26:01.757 [main] DEBUG com.wqls.imbwql.select - ==>  Preparing: select * from bm 
+2020-11-30 19:26:01.776 [main] DEBUG com.wqls.imbwql.select - ==> Parameters: 
+2020-11-30 19:26:01.786 [main] DEBUG com.wqls.imbwql.select - <==      Total: 4
+2020-11-30 22:36:53.728 [main] DEBUG com.wql.Iuser.insert - ==>  Preparing: insert into fq values (18,'SB',101) 
+2020-11-30 22:36:53.749 [main] DEBUG com.wql.Iuser.insert - ==> Parameters: 
+2020-11-30 22:37:00.944 [main] DEBUG com.wql.Iuser.insert - ==>  Preparing: insert into fq values (19,'SB',101) 
+2020-11-30 22:37:00.964 [main] DEBUG com.wql.Iuser.insert - ==> Parameters: 
+2020-11-30 22:37:00.965 [main] DEBUG com.wql.Iuser.insert - <==    Updates: 1
+2020-11-30 22:37:06.385 [main] DEBUG com.wql.Iuser.insert - ==>  Preparing: insert into fq values (19,'SB',101) 
+2020-11-30 22:37:06.404 [main] DEBUG com.wql.Iuser.insert - ==> Parameters: 
+2020-11-30 23:16:48.178 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-11-30 23:16:48.198 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-11-30 23:16:48.211 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4
+2020-11-30 23:16:48.212 [main] DEBUG com.fq.iprople.select2 - ==>  Preparing: select * from prople; 
+2020-11-30 23:16:48.212 [main] DEBUG com.fq.iprople.select2 - ==> Parameters: 
+2020-11-30 23:16:48.217 [main] DEBUG com.fq.iprople.select2 - <==      Total: 4
+2020-11-30 23:18:09.109 [main] DEBUG com.fq.iprople.select3 - ==>  Preparing: select * from prople where id=? 
+2020-11-30 23:18:09.130 [main] DEBUG com.fq.iprople.select3 - ==> Parameters: 1(Integer)
+2020-11-30 23:18:09.140 [main] DEBUG com.fq.iprople.select3 - <==      Total: 1
+2020-11-30 23:24:47.687 [main] DEBUG com.fq.iprople.select4 - ==>  Preparing: select * from prople; 
+2020-11-30 23:24:47.708 [main] DEBUG com.fq.iprople.select4 - ==> Parameters: 
+2020-11-30 23:24:47.717 [main] DEBUG com.fq.iprople.select4 - <==      Total: 4

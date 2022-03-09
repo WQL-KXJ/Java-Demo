@@ -1,0 +1,11 @@
+2021-02-02 14:11:47.336 [main] DEBUG org.mybatis.generator.logging.LogFactory - Logging initialized using 'org.mybatis.generator.logging.slf4j.Slf4jLoggingLogFactory@3159c4b8' adapter.
+2021-02-02 14:11:47.338 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "_bm.bm"
+2021-02-02 14:11:47.361 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "wql..bm"
+2021-02-02 14:11:47.361 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "bmname", data type 12, in table "wql..bm"
+2021-02-02 14:11:47.365 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "_blobs.blobs"
+2021-02-02 14:11:47.369 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "wql..blobs"
+2021-02-02 14:11:47.370 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "img", data type -4, in table "wql..blobs"
+2021-02-02 14:11:47.374 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Retrieving column information for table "_fq.fq"
+2021-02-02 14:11:47.377 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "id", data type 4, in table "wql..fq"
+2021-02-02 14:11:47.377 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "name", data type 12, in table "wql..fq"
+2021-02-02 14:11:47.377 [main] DEBUG org.mybatis.generator.internal.db.DatabaseIntrospector - Found column "random", data type 4, in table "wql..fq"

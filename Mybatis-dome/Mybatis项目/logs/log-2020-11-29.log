@@ -1,0 +1,3 @@
+2020-11-29 00:50:07.605 [main] DEBUG com.wql.Iuser.findall - ==>  Preparing: select * from fq 
+2020-11-29 00:50:07.632 [main] DEBUG com.wql.Iuser.findall - ==> Parameters: 
+2020-11-29 00:50:07.647 [main] DEBUG com.wql.Iuser.findall - <==      Total: 10

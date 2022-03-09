@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6108bbd5-778d-4579-bcb7-c0a51b145fa1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Spring项目" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+        <option value="Tag Library Descriptor" />
+        <option value="FxmlFile" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1dyisix2tVocMWfol10w6COVehQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24252874" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Spring项目\src\main\sprinttest" />
+      <recent name="E:\Spring项目\src\main\java" />
+      <recent name="E:\Spring项目\src\main\java\binarytree" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6108bbd5-778d-4579-bcb7-c0a51b145fa1" name="Default Changelist" comment="" />
+      <created>1593403941519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593403941519</updated>
+      <workItem from="1593403945038" duration="1055000" />
+      <workItem from="1593572217394" duration="16000" />
+      <workItem from="1593699561467" duration="3036000" />
+      <workItem from="1594089905252" duration="7909000" />
+      <workItem from="1594348690406" duration="27243000" />
+      <workItem from="1594785124774" duration="98000" />
+      <workItem from="1603804044281" duration="5938000" />
+      <workItem from="1603860451395" duration="641000" />
+      <workItem from="1603875808957" duration="15132000" />
+      <workItem from="1604119372691" duration="15927000" />
+      <workItem from="1604221082148" duration="30011000" />
+      <workItem from="1604492098901" duration="807000" />
+      <workItem from="1604515958689" duration="2543000" />
+      <workItem from="1605080020056" duration="4357000" />
+      <workItem from="1605093873118" duration="1856000" />
+      <workItem from="1605095905814" duration="794000" />
+      <workItem from="1605165597709" duration="529000" />
+      <workItem from="1610956092641" duration="47000" />
+      <workItem from="1633509488079" duration="114000" />
+      <workItem from="1633509880505" duration="65000" />
+      <workItem from="1633510018270" duration="52000" />
+      <workItem from="1633510326709" duration="267000" />
+      <workItem from="1635663480475" duration="146000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633509933926">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1633509933926" />
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1633509619638">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="620" y="305" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1536.824@0.0.1536.824" timestamp="1633509619638" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1635663615992">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635663615992" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1633509939411">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1633509939411" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1633510018215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1633510018215" />
+    <state x="178" y="117" key="new project wizard" timestamp="1635663625614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="117" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1635663625614" />
+    <state x="449" y="105" key="spring file set editor" timestamp="1633510378869">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1633510378869" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/binarytree(二叉树)/chaintree.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="logger" />
+        <watch expression="logger" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../boot-server-common/boot-server-common.iml" filepath="$PROJECT_DIR$/../boot-server-common/boot-server-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../boot-server-consumer/boot-server-consumer.iml" filepath="$PROJECT_DIR$/../boot-server-consumer/boot-server-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../boot-server-provider/boot-server-provider.iml" filepath="$PROJECT_DIR$/../boot-server-provider/boot-server-provider.iml" />
+    </modules>
+  </component>
+</project>

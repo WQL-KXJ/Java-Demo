@@ -1,0 +1,95 @@
+persion:
+  name: WQL
+  age: 20
+  birthday: 2000/11/5
+  leader: true
+  #非行内写法
+  friend:
+    - 压缩
+    - 日女
+    - 剑圣
+  #行内写法
+  #friend: {压缩,日女,剑圣}
+  Technologystack:
+    - 风墙
+    - 耀光
+    - 冥想
+  type:
+    "技能1": 远程防御
+    "技能2": 眩晕
+    "技能3": 减伤回血
+
+  ftype:
+     name: 剑圣
+     relation: 打野
+
+  map:
+    1: {name: 压缩,relation: 中单}
+    2: {name: 日女,relation: 辅助}
+
+#spring:
+#  web:
+#    resources:
+#      static-locations: [classpath:/jj/]
+spring:
+  #数据源的设置
+  datasource:
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/test
+    driver-class-name: com.mysql.jdbc.Driver
+  boot:
+    admin:
+      client:
+        url: http://localhost:8080
+        instance:
+          prefer-ip: true
+  application:
+    name: wql_springboot
+#Druid的配置
+#    druid:
+#      url: /druid/*
+#
+#      #对数据源的监控
+#      filter:
+#        stat: #对Filter的详细配置
+#          slow-sql-millis: 1000
+#        wall: #防火墙的配置
+#          enabled: true
+#
+#      #监控页的设置
+#      stat-view-servlet:
+#        enabled: true
+#        login-username: wql
+#        login-password: 123
+#
+#      #WEB的监控
+#      web-stat-filter:
+#        enabled: true
+#        url-pattern: /*
+#        exclusions: '*.png,*.jpg,*.css,*.js,*.css,*.ico'
+management:
+  endpoint:
+    beans:
+      enabled: true
+    info:
+      enabled: true
+    health:
+      show-details: always
+  endpoints:
+    enabled-by-default: true
+    web:
+      exposure:
+        include: '*'
+#info:
+#  appName: WQL_SpringBoot
+#  appVersio n: 1.1.1
+#  mavenProjectName: @project.artifactId@
+#  mavenProjectVersion: @project.version@
+#  authorName: WQL
+#  lllllll: 自定义
+
+mybatis:
+  config-location: classpath:/mybatis/mybatis-config.xml
+  mapper-locations: classpath:/mybatis/mapper/*.xml
+

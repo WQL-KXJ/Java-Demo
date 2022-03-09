@@ -1,0 +1,11 @@
+syntax = "proto3";//版本号
+option  java_outer_classname = "wql";//生成的外部java类名
+//protobuf使用message管理数据
+message  wql_fq{
+  //会在wql外部类中生成一个内部类，它是真正发送的POJO对象
+  //在wql_fq类中有一个属性名字为id，类型为int32(这是protobuf自带的类型，跟java类型有对应关系，int32对应java的int)
+  //1表示属性序号，不表示值
+  int32  id = 1;
+  string name=2;
+}
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+        <!--向集合类注入对象和建立一个公共的集合-->
+        <!--向集合内注入对象-->
+    <bean id="fq" class="com.springwql.wqlduix">
+        <property name="set">
+            <set>
+                <ref bean="fq1"></ref>
+                <ref bean="fq2"></ref>
+            </set>
+        </property>
+    </bean>
+    <!--创建集合中的对象-->
+    <bean id="fq1" class="com.springwql.FQLOVE">
+        <property name="a" value="注入集合的对象一"></property>
+    </bean>
+    <bean id="fq2" class="com.springwql.FQLOVE">
+        <property name="a" value="注入集合的对象2"></property>
+    </bean>
+
+    <!--建立一个公共的集合(需要引入util)-->
+    <util:set id="wql11" >
+        <ref bean="fq1"></ref>
+        
+    </util:set>
+    <!--引入公共的集合类-->
+    <bean id="fq100" class="com.springwql.wqlduix">
+        <property name="set" ref="wql11"></property>
+    </bean>
+
+    <bean ></bean>
+</beans>

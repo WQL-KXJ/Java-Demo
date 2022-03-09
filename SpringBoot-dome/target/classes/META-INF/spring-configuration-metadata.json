@@ -1,0 +1,98 @@
+{
+  "groups": [
+    {
+      "name": "management.endpoint.my-endpoint",
+      "type": "com.WQL.actuator.endpoint_wql",
+      "sourceType": "com.WQL.actuator.endpoint_wql"
+    },
+    {
+      "name": "mywql",
+      "type": "com.WQL.pojo.mywql",
+      "sourceType": "com.WQL.pojo.mywql"
+    },
+    {
+      "name": "persion",
+      "type": "com.WQL.pojo.yaml_pojo",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "spring.datasource",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.WQL.config.datasource_config",
+      "sourceMethod": "druid_datasource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "management.endpoint.my-endpoint.cache.time-to-live",
+      "type": "java.time.Duration",
+      "description": "Maximum time that a response can be cached.",
+      "sourceType": "com.WQL.actuator.endpoint_wql",
+      "defaultValue": "0ms"
+    },
+    {
+      "name": "management.endpoint.my-endpoint.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable the myEndpoint endpoint.",
+      "sourceType": "com.WQL.actuator.endpoint_wql",
+      "defaultValue": true
+    },
+    {
+      "name": "mywql.girlfriends",
+      "type": "java.lang.String",
+      "sourceType": "com.WQL.pojo.mywql"
+    },
+    {
+      "name": "mywql.name",
+      "type": "java.lang.String",
+      "sourceType": "com.WQL.pojo.mywql"
+    },
+    {
+      "name": "persion.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.WQL.pojo.yaml_pojo",
+      "defaultValue": 0
+    },
+    {
+      "name": "persion.birthday",
+      "type": "java.util.Date",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.friend",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.ftype",
+      "type": "com.WQL.pojo.family",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.leader",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.map",
+      "type": "java.util.Map<java.lang.String,com.WQL.pojo.family>",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.name",
+      "type": "java.lang.String",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.technologystack",
+      "type": "java.lang.String[]",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    },
+    {
+      "name": "persion.type",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.WQL.pojo.yaml_pojo"
+    }
+  ],
+  "hints": []
+}

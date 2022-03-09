@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fq.iprople">
+   <!--单条数据-->
+    <select id="select1" resultType="prople">
+        select * from prople where id=#{a}
+    </select>
+    <!--多条数据-->
+    <select id="select2" resultType="prople">
+        select  * from prople
+    </select>
+    <!--单条数据映射进Map集合-->
+    <select id="select3" resultType="Map">
+         select * from prople where id=#{a}
+    </select>
+    <!--多条数据映射到实体类，然后加入到Map集合中-->
+    <select id="select4" resultType="prople">
+        select  * from prople;
+    </select>
+</mapper>

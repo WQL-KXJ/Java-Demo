@@ -1,0 +1,25 @@
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <!--定义标签库信息-->
+    <!--描述信息-->
+    <description>A tag library exercising SimpleTag handlers.</description>
+    <!--标签库版本-->
+    <tlib-version>1.0</tlib-version>
+    <!--定义标签库的名称-->
+    <short-name>mywql</short-name>
+    <!--url指定义-->
+    <uri>http://tomcat.apache.org/jsp/el/wql</uri>
+
+    <!--注册函数信息-->
+    <function>
+        <!--注册的函数名-->
+        <name>Tolower</name>
+        <!--实体类-->
+        <function-class>com.WQL.ltdwql</function-class>
+        <!--返回值类型 方法名 参数列表（注意：要写全限定类名）-->
+        <function-signature> java.long.String lower(java.long.String) </function-signature>
+    </function>
+
+</taglib>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>maven-dome</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>../maven-mod1</module>
+        <module>../maven-mod2</module>
+    </modules>
+
+    <!--发布配置管理-->
+    <distributionManagement>
+        <!--假如项目是发布版就通过这个标签进行上传-->
+        <repository>
+            <!--这个id是一个server用户，之前在本地仓库中配置用户，把id添进来进行-->
+        <id>wql-nexus</id>
+            <!--上传的url地址，这里可以是私服库或库组的地址-->
+            <url>http://localhost:8081/repository/maven-public/</url>
+        </repository>
+        <!--假如项目是快照版就通过这个标签进行上传-->
+        <snapshotRepository>
+            <!--这个id是一个server用户，之前在本地仓库中配置用户，把id添进来进行-->
+            <id>wql-nexus</id>
+            <!--上传的url地址，这里可以是私服库或库组的地址-->
+            <url>http://localhost:8081/repository/maven-public/</url>
+        </snapshotRepository>
+    </distributionManagement>
+    <dependencyManagement>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.14.1</version>
+        </dependency>
+    </dependencies>
+    </dependencyManagement>
+</project>

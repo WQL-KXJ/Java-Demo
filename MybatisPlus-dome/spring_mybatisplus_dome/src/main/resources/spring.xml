@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+      http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+     http://www.springframework.org/schema/tx https://www.springframework.org/schema/tx/spring-tx.xsd
+      http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:property-placeholder location="connection.properties"/>
+
+    <!--使用druid数据源配置datasource-->
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="username" value="${name}"/>
+        <property name="password" value="${password}"/>
+        <property name="driverClassName" value="${driverclass}"/>
+        <property name="url" value="${url}"/>
+    </bean>
+
+    <!--配置mybatis-->
+    <bean  class="com.baomidou.mybatisplus.extension.spring.MybatisSqlSessionFactoryBean">
+        <!--配置mybatis的数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--声明主配置文件位置-->
+        <property name="configLocation" value="classpath:/mybatisconfig.xml"/>
+        <!--声明映射文件地址-->
+        <property name="mapperLocations" value="classpath:/mapper/*"/>
+    </bean>
+
+    <!--配置redis，整合为第三方缓存-->
+    <!-- 1、配置连接池信息 -->
+    <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
+        <!-- 最大连接数-->
+        <property name="maxTotal" value="50"></property>
+        <property name="maxIdle" value="5"></property>
+    </bean>
+    <!--2、spring整合Jedis（Redis） 也就是配置连接工厂JedisConnectionFactory-->
+    <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory">
+        <!--需要自定义（指定）一些工厂属性配置信息-->
+        <!--        指定服务器地址-->
+        <property name="hostName" value="127.0.0.1"></property>
+        <!--        指定服务端口号-->
+        <property name="port" value="6379"/>
+        <!--        指定密码（Redis3之前可以不指定，之后都要）-->
+        <property name="password" value="yichun"/>
+        <!--   自定义连接池配置：再把第一步配置好的连接池信息通过属性注入进来  如果不自定义会采用默认的连接池配置，工厂中有属性new JedisPoolConfig-->
+        <property name="poolConfig" ref="jedisPoolConfig"></property>
+    </bean>
+    <!--    3、配置RedisTemplate模板   把第二步配置好的连接工厂JedisConnectionFactory通过属性注入到RedisTemplate模板中-->
+    <bean id="redisTemplate" class="org.springframework.data.redis.core.RedisTemplate">
+        <property name="connectionFactory" ref="jedisConnectionFactory"></property>
+        <!--如下配置是为了之后的key和value的序列化操作，暂时不配制也是OK的-->
+        <property name="keySerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"></bean>
+        </property>
+        <property name="valueSerializer">
+            <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"></bean>
+        </property>
+    </bean>
+
+    <!--扫描映射配置文件地址-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.mapper"/>
+    </bean>
+
+    <!--配置事务管理器-->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!--开启基于注解的事务管理-->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+
+</beans>

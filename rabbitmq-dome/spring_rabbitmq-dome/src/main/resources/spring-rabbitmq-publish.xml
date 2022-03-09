@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+                            http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd
+                            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+                            http://www.springframework.org/schema/rabbit http://www.springframework.org/schema/rabbit/spring-rabbit.xsd">
+
+    <!--加载properties配置文件-->
+    <context:property-placeholder location="classpath:rabbitmq.properties"/>
+
+    <!--创建rabbitmq工厂，并配置连接信息-->
+    <rabbit:connection-factory id="factory" host="${rabbitmq.host}"
+                               port="${rabbitmq.port}"
+                               username="${rabbitmq.name}"
+                               password="${rabbitmq.password}"
+                               virtual-host="${rabbitmq.virtual-host}"/>
+
+    <!--定义管理交换机和队列封装过后的工厂，将上面工厂传入其中即可-->
+    <rabbit:admin connection-factory="factory"/>
+
+    <!--定义持久化队列，不存在则自动创建，不绑定到指定交换机则为默认""交换机，默认交换机路由类型为Direct
+    参数：
+    1，auto-declare：是否自动创建(一般都设置为true)
+    2，auto-delete:是否自动删除
+    3，durable：是否持久化
+    4，queue-arguments：参数
+    5，exclusive：是否排他性
+    -->
+    <rabbit:queue id="spring_queue" name="spring_queue" durable="true" auto-declare="true"/>
+
+    <!--广播策略-->
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_fanout_queue1" name="spring_fanout_queue1" durable="true" auto-declare="true"/>
+    <!--定义广播交换机中的持久化队列，不存在则自动创建-->
+    <rabbit:queue id="spring_fanout_queue2" name="spring_fanout_queue2" durable="true" auto-declare="true"/>
+
+    <!--定义广播类型交换机，并绑定上述两个队列-->
+    <rabbit:fanout-exchange id="spring_fanout_exchange" name="spring_fanout_exchange" auto-declare="true"
+                            durable="true">
+        <rabbit:bindings>
+            <rabbit:binding queue="spring_fanout_queue1"/>
+            <rabbit:binding queue="spring_fanout_queue2"/>
+        </rabbit:bindings>
+    </rabbit:fanout-exchange>
+
+    <!--主题(通配符)策略-->
+    <!--定义要加入主题策略中的队列（三个队列）-->
+    <rabbit:queue id="spring_topic_queue1" name="spring_topic_queue1" auto-declare="true" durable="true"/>
+    <rabbit:queue id="spring_topic_queue2" name="spring_topic_queue2" auto-declare="true" durable="true"/>
+    <rabbit:queue id="spring_topic_queue3" name="spring_topic_queue3" auto-declare="true" durable="true"/>
+    <!--定义主题策略的交换机，并绑定队列-->
+    <rabbit:topic-exchange id="spring_topic_exchange" name="spring_topic_exchange" auto-declare="true">
+        <rabbit:bindings>
+            <!--pattren为路由通配规则-->
+            <rabbit:binding pattern="wql.#" queue="spring_topic_queue1"/>
+            <rabbit:binding pattern="wql.*" queue="spring_topic_queue2"/>
+            <rabbit:binding pattern="wql.#.fq" queue="spring_topic_queue3"/>
+        </rabbit:bindings>
+    </rabbit:topic-exchange>
+
+    <!--定义rabbitTemplate对象操作，可以在代码中方便的发送消息(关键对象)-->
+    <rabbit:template id="rabbitTemplate" connection-factory="factory"/>
+</beans>
