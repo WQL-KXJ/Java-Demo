@@ -6,7 +6,12 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cc9a450-8777-463c-9a28-3fcaf7f793bf" name="Default Changelist" comment="" />
+    <list default="true" id="1cc9a450-8777-463c-9a28-3fcaf7f793bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SpringBoot-dome/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-dome/target/classes/META-INF/SpringBoot-dome.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SpringBoot-dome/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../SpringBoot-dome/target/classes/application.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -63,6 +71,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1kCIhhfB2DDaDwcgEOhVdrLUh1j" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -72,7 +81,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringBoot-dome" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -225,6 +234,7 @@
       <workItem from="1637299029152" duration="527000" />
       <workItem from="1637302630098" duration="125000" />
       <workItem from="1637585177026" duration="31000" />
+      <workItem from="1646987613210" duration="120000" />
     </task>
     <servers />
   </component>
@@ -232,73 +242,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1637298907904">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1646987732447">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1637298907904" />
-    <state x="360" y="74" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1637298833132">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="360" y="74" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1536.824@0.0.1536.824" timestamp="1637298833132" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1637294950496">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1637294950496" />
-    <state width="1336" height="138" key="GridCell.Tab.0.bottom" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.0.center" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.0.left" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.0.right" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.1.bottom" timestamp="1637297561676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637297561676" />
-    <state width="1336" height="138" key="GridCell.Tab.1.center" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.1.left" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.1.right" timestamp="1637297561675">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1637297561675" />
-    <state width="1336" height="138" key="GridCell.Tab.2.bottom" timestamp="1637297561676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1637297561676" />
-    <state width="1336" height="138" key="GridCell.Tab.2.center" timestamp="1637297561676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1637297561676" />
-    <state width="1336" height="138" key="GridCell.Tab.2.left" timestamp="1637297561676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1637297561676" />
-    <state width="1336" height="138" key="GridCell.Tab.2.right" timestamp="1637297561676">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1336" height="138" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1637297561676" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1633510152641">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1633510152641" />
-    <state x="178" y="120" key="new project wizard" timestamp="1637294960144">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="178" y="120" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1637294960144" />
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1646987732447" />
   </component>
 </project>

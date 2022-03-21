@@ -38,7 +38,6 @@ spring:
     password: 123
     url: jdbc:mysql://localhost:3306/test
     driver-class-name: com.mysql.jdbc.Driver
-    #Druid的配置
   boot:
     admin:
       client:
@@ -47,6 +46,7 @@ spring:
           prefer-ip: true
   application:
     name: wql_springboot
+#Druid的配置
 #    druid:
 #      url: /druid/*
 #

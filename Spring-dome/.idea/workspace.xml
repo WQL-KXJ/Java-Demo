@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6108bbd5-778d-4579-bcb7-c0a51b145fa1" name="Default Changelist" comment="" />
+    <list default="true" id="6108bbd5-778d-4579-bcb7-c0a51b145fa1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/Jpa-Hibernate/Jpa-Hibernate.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/Jpa-Hibernate/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SprigData-Dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/SpringData-JPA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/src/main/java/com/dao/pojo/jdbctemplatetestpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/src/main/java/com/dao/repsitories/CustomerRepsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/src/main/resources/JpaConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SprigData-Dome/SpringData-JPA/src/test/java/com/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SSM整合-dome/SpringMVCx项目/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SSM整合-dome/SpringMVCx项目/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/META-INF/SpringBoot-dome.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/interceptor_coonfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot-dome/target/classes/com/WQL/config/interceptor_coonfig.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,10 +63,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dyisix2tVocMWfol10w6COVehQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -105,6 +133,7 @@
       <workItem from="1633510018270" duration="52000" />
       <workItem from="1633510326709" duration="267000" />
       <workItem from="1635663480475" duration="146000" />
+      <workItem from="1647318032911" duration="614000" />
     </task>
     <servers />
   </component>
