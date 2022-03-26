@@ -6,7 +6,29 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6133f45d-7993-4f22-a8fe-cc51004b262d" name="Default Changelist" comment="" />
+    <list default="true" id="6133f45d-7993-4f22-a8fe-cc51004b262d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/springsession-dome.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession-dome/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/artifacts/springsession_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/springsession.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/src/main/java/com/my/springsession/Getservlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/src/main/java/com/my/springsession/Setservlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringSession-dome/springsession/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,6 +60,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -49,6 +74,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1lNR1PdTVaqP1XVNqfiPHRIPgQO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,9 +82,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SpringMVCx项目" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -215,11 +242,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -255,6 +277,7 @@
       <workItem from="1609822266390" duration="813000" />
       <workItem from="1610026468617" duration="5802000" />
       <workItem from="1610248684754" duration="33231000" />
+      <workItem from="1647952154097" duration="1014000" />
     </task>
     <servers />
   </component>
