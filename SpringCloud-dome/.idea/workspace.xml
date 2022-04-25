@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="408cc04b-d551-4245-921b-4032f505261d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/java/com/cloud/commons/entities/payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center/src/main/java/com/cloud/ConfigMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/java/com/cloud/ConfigClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/java/com/cloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client2/src/main/java/com/cloud/ConfigClientMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client2/src/main/java/com/cloud/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client2/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-server/src/main/java/com/cloud/ConsulMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consul-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consume-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order/src/main/java/com/cloud/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order/src/main/java/com/cloud/controller/OrderFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order/src/main/java/com/cloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-feign-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order/src/main/java/com/cloud/controller/hystrixorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order/src/main/java/com/cloud/service/feignserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order/src/main/java/com/cloud/service/serviceimpl/feignserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1/src/main/java/com/cloud/EurekaServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-eureka-server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-geteway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-geteway/src/main/java/com/cloud/gateway/GatewayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-geteway/src/main/java/com/cloud/gateway/config/GatwayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-geteway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/java/com/hystrixdashboard/HystrixDashboardMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/PayMentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/service/serviceimpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/java/springcloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-payment-server1/src/main/resources/mapper/paymentmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment/src/main/java/com/cloud/pymenthystrix/controller/paymentcontroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment/src/main/java/com/cloud/pymenthystrix/service/pymentservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/PayMentMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/service/serviceimpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/java/springcloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-server2/src/main/resources/mapper/paymentmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/java/com/cloud/RibbonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/java/com/cloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/java/com/cloud/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/java/com/cloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/java/com/myrule/MySelfRlue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-ribbon-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-seata-wql/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sleuth-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-sleuth-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer1/src/main/java/com/cloudstream/CloudStreamConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer1/src/main/java/com/cloudstream/service/StreamConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer2/src/main/java/com/cloudstream/StreamConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer2/src/main/java/com/cloudstream/service/StreamConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/CloudStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/controller/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/service/MessageProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/service/MessageProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-stream-rabbitmq-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-server/src/main/java/com/cloud/ZookeeperMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-server/src/main/java/com/cloud/controller/zoocontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-zookeeper-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-config/src/main/java/com/cloudalibaba/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/NacosConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-provider1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-provider1/src/main/java/com/cloudalibaba/NacosClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-provider1/src/main/java/com/cloudalibaba/controller/nacoscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacos-provider1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacox-provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacox-provider2/src/main/java/com/cloudalibaba/NacosProviderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacox-provider2/src/main/java/com/cloudalibaba/controller/nacoscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-nacox-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/SeataOrderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/dao/orderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/entity/orderpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/servicefeign/orderfeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/resources/mapper/ordermap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/SeataStockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/dao/stockDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/entity/stockpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/stockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/resources/mapper/stockmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/CloudalibabaSeataTestApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/dao/orderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/entity/orderpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/feignservice/orderfeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/test/java/com/example/cloudalibabaseatatest/CloudalibabaSeataTestApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/SentinelGatewayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/controller/SentinelGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway2/src/main/java/com/sentinelgateway/SentinelGateWayMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-gateway2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-openfeign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/SentinelOpenfeignMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/service/FallBackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/service/OpenFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-openfeign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/controller/customerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/controller/sentinelcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloudalibaba-sentinel-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="mybatis-map" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="26yFgeiFKlR4eg1jbfPgTPCGzLi" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/service" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31839082" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.cloudalibabaseatatest.feignservice" />
+      <recent name="com.example.cloudalibabaseatatest.dao" />
+      <recent name="com.example.cloudalibabaseatatest.entity" />
+      <recent name="com.cloudalibaba.util" />
+      <recent name="com.cloud.util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Dome\SpringCloud-Dome\cloudalibaba-seata-test\src\main\java\com\example\cloudalibabaseatatest\service" />
+      <recent name="F:\Dome\SpringCloud-Dome\cloudalibaba-sentinel-gateway\src\main\resources" />
+      <recent name="F:\Dome\SpringCloud-Dome\cloudalibaba-sentinel-openfeign\src\main\resources" />
+      <recent name="F:\Dome\SpringCloud-Dome\cloudalibaba-sentinel-service\src\main\resources" />
+      <recent name="F:\Dome\SpringCloud-Dome\cloudalibaba-nacos-config\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CloudalibabaSeataTestApplication">
+    <configuration name="CloudalibabaSeataTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-seata-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.cloudalibabaseatatest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloudalibabaseatatest.CloudalibabaSeataTestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PayMentMain2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-server2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="springcloud.PayMentMain2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-seata-client1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloudalibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudalibaba.SeataOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeataStockMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-seata-client2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloudalibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudalibaba.SeataStockMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SentinelGatewayMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloudalibaba-sentinel-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloudalibaba.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloudalibaba.SentinelGatewayMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SentinelGatewayMain" />
+      <item itemvalue="Spring Boot.SeataOrderMain" />
+      <item itemvalue="Spring Boot.PayMentMain2" />
+      <item itemvalue="Spring Boot.SeataStockMain" />
+      <item itemvalue="Spring Boot.CloudalibabaSeataTestApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.CloudalibabaSeataTestApplication" />
+        <item itemvalue="Spring Boot.SeataOrderMain" />
+        <item itemvalue="Spring Boot.SeataStockMain" />
+        <item itemvalue="Spring Boot.PayMentMain2" />
+        <item itemvalue="Spring Boot.SentinelGatewayMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.22882514" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringGeneralSettings">
+    <option name="allowAutoConfigurationMode" value="true" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="408cc04b-d551-4245-921b-4032f505261d" name="Default Changelist" comment="" />
+      <created>1648388031933</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648388031933</updated>
+      <workItem from="1648388034755" duration="7209000" />
+      <workItem from="1648437073933" duration="5436000" />
+      <workItem from="1648442771692" duration="21001000" />
+      <workItem from="1648557280085" duration="17192000" />
+      <workItem from="1648774401143" duration="47750000" />
+      <workItem from="1649299843671" duration="848000" />
+      <workItem from="1649300953480" duration="38112000" />
+      <workItem from="1649749316933" duration="11643000" />
+      <workItem from="1649815489262" duration="110000" />
+      <workItem from="1649826295007" duration="599000" />
+      <workItem from="1649900777750" duration="29256000" />
+      <workItem from="1650284248502" duration="5438000" />
+      <workItem from="1650340220948" duration="10477000" />
+      <workItem from="1650417068442" duration="34481000" />
+      <workItem from="1650559701526" duration="19985000" />
+      <workItem from="1650849828999" duration="3004000" />
+      <workItem from="1650863190270" duration="10963000" />
+      <workItem from="1650876451354" duration="1140000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="407" y="52" key="#ConsumerMain" timestamp="1648545339870">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="407" y="52" key="#ConsumerMain/0.0.1536.824@0.0.1536.824" timestamp="1648545339870" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1650863099348">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1650863099348" />
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1649300910664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1649300910664" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1650869535281">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1650869535281" />
+    <state x="404" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1648545262083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="404" y="341" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1648545262083" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1650540904047">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1650540904047" />
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1650876757142">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650876757142" />
+    <state width="1128" height="666" key="GridCell.Tab.0.bottom" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.0.center" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.0.left" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.0.right" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.1.bottom" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.1.center" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.1.left" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state width="1128" height="666" key="GridCell.Tab.1.right" timestamp="1650877595212">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="666" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1650877595212" />
+    <state x="431" y="116" key="NewModule_or_Project.wizard" timestamp="1649301040925">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="116" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1649301040925" />
+    <state x="272" y="0" key="SettingsEditor" timestamp="1650877373120">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="272" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1650877373120" />
+    <state x="471" y="115" key="SpringBootCustomization" timestamp="1650863317256">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="471" y="115" key="SpringBootCustomization/0.0.1536.824@0.0.1536.824" timestamp="1650863317256" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1650876451621">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1650876451621" />
+    <state x="309" y="153" key="new project wizard" timestamp="1650876083052">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="309" y="153" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1650876083052" />
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog" timestamp="1648443953242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="472" y="45" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1648443953242" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1648545304374">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1648545304374" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1650606512049">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1650606512049" />
+    <state x="238" y="105" key="spring file set editor" timestamp="1650876763353">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="238" y="105" key="spring file set editor/0.0.1536.824@0.0.1536.824" timestamp="1650876763353" />
+    <state x="491" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1648443402349">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="491" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1648443402349" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand>
+      <path>
+        <item name="SpringCloud-Dome" type="b2602c69:ProjectViewProjectNode" />
+        <item name="SpringCloud-Dome" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
+    <select />
+  </component>
+</project>

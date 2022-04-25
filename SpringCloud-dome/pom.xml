@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>org.example</groupId>
+    <artifactId>SpringCloud-Dome</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>cloud-consume-order</module>
+        <module>cloud-api-commons</module>
+        <module>cloud-eureka-server1</module>
+        <module>cloud-eureka-server2</module>
+        <module>cloud-provider-server2</module>
+        <module>cloud-payment-server1</module>
+        <module>cloud-zookeeper-server</module>
+        <module>cloud-consul-server</module>
+        <module>cloud-ribbon-server</module>
+        <module>cloud-consumer-feign-order</module>
+        <module>cloud-provider-hystrix-payment</module>
+        <module>cloud-consumer-hystrix-order</module>
+        <module>cloud-hystrix-dashboard</module>
+        <module>cloud-getway</module>
+        <module>cloud-config-center</module>
+        <module>cloud-config-client</module>
+        <module>cloud-config-client2</module>
+        <module>cloud-stream-rabbitmq-provider</module>
+        <module>cloud-stream-rabbitmq-consumer1</module>
+        <module>cloud-stream-rabbitmq-consumer2</module>
+        <module>cloud-sleuth-server</module>
+        <module>cloudalibaba-nacos-provider1</module>
+        <module>cloudalibaba-nacox-provider2</module>
+        <module>cloudalibaba-nacos-consumer</module>
+        <module>cloudalibaba-nacos-config</module>
+        <module>cloudalibaba-sentinel-service</module>
+        <module>cloudalibaba-sentinel-openfeign</module>
+        <module>cloudalibaba-sentinel-gateway</module>
+        <module>cloudalibaba-sentinel-gateway2</module>
+        <module>cloudalibaba-seata-client1</module>
+        <module>cloudalibaba-seata-client2</module>
+        <module>cloud-seata-wql</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <junit.version>4.12</junit.version>
+        <lombok.version>1.18.10</lombok.version>
+        <log4j.version>1.2.17</log4j.version>
+        <mysql.version>5.1.31</mysql.version>
+        <druid.version>1.1.16</druid.version>
+        <mybatis.spring.boot.version>2.1.1</mybatis.spring.boot.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.3.2.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Hoxton.SR8</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>2.2.5.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+
+            </dependency>
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+
+
+</project>

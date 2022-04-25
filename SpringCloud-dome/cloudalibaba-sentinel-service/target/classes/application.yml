@@ -1,0 +1,28 @@
+server:
+  port: 9106
+spring:
+  application:
+    name: cloudalibaba-sentinelmain-service
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.68.134:8084 #nacos服务端地址，Nginx做了代理
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #SentinelMain dashboard地址
+        port: 8719 #默认端口为8719，如果被占用开始+1扫描，直到找到未被占用的端口
+      datasource:
+        ds1:
+          nacos:
+            server-addr: 192.168.68.134:8084 #nacos的服务地址
+            data-id: cloudalibaba-sentinelmain-service #远程nacos配置文件的名称(唯一)
+            group-id: DEFAULT_GROUP #分组
+            data-type: json #数据类型为json
+            rule-type: flow
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+

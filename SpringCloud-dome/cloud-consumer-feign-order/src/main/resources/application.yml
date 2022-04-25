@@ -1,0 +1,19 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: cloud-consumer-openfeign-order
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/
+ribbon:
+  ReadTimeout: 5000 #指建立连接所用超时时间
+  ConnectTimeout: 5000 #指从服务器获取服务超时时间
+logging:
+  level: #feign日志以什么级别监控那个接口
+    com.cloud.service.PaymentFeignService: debug

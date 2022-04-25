@@ -1,0 +1,18 @@
+server:
+  port: 9104
+spring:
+  application:
+    name: cloud-nacos-config
+  cloud:
+    nacos:
+      discovery: #服务注册
+        server-addr: 192.168.68.134:8848 #nacos服务端地址
+      config: #服务配置
+        server-addr:  192.168.68.134:8848 #配置中心地址
+        file-extension: yaml #配置文件格式(yaml或者properties)
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

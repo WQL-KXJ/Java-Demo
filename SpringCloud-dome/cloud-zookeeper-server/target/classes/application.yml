@@ -1,0 +1,8 @@
+server:
+  port: 9092
+spring:
+  application:
+    name: cloud-zookeeper-server
+  cloud:
+    zookeeper:
+      connect-string: 192.168.68.133:2181

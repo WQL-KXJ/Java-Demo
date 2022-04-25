@@ -1,0 +1,14 @@
+server:
+  port: 9101
+spring:
+  application:
+    name: nacos-pyment-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.68.134:8848 #nacos服务端地址
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

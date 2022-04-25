@@ -1,0 +1,27 @@
+server:
+  port: 9108
+spring:
+  application:
+    name: cloudalibaba-sentinelmain-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes: #加入一个规则
+        - id: sentinelgateway_routh #路由的ID，没有固定规则但要求唯一(建议配合服务名)
+          uri: lb://cloudalibaba-sentinelmain-service #匹配后提供服务的路由地址
+          predicates: #断言路径相匹配进行断言
+            - Path=/testB/**
+    nacos:
+      discovery:
+        server-addr: 192.168.68.134:8084 #nacos服务端地址，Nginx做了代理
+    sentinel:
+      transport:
+        dashboard: localhost:8080 #SentinelMain dashboard地址
+        port: 8719 #默认端口为8719，如果被占用开始+1扫描，直到找到未被占用的端口
+        scg:
+          fallback:
+            mode: response #响应
+            response-body: "{code:200,message:'网关被限流'}" #异常触发的响应信息
+

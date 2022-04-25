@@ -1,0 +1,11 @@
+server:
+  port: 9093
+spring:
+  application:
+    name: cloud-consul-server
+  cloud:
+    consul:
+      host: 192.168.68.134 #consul地址
+      port: 8500 #consul端口，默认位8500
+    discovery:
+      service-name: ${spring.application.name} #服务名称

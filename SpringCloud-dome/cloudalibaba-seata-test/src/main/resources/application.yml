@@ -1,0 +1,18 @@
+server:
+  port: 9210
+spring:
+  application:
+    name: seata-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.68.134:8848
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456789
+    url: jdbc:mysql://192.168.68.134:3306/seata_order?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml

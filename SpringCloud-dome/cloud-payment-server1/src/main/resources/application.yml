@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: cloud-payment-server
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123
+    url: jdbc:mysql://localhost:3306/springcloud_test?useUnicode=true&characterEncoding=utf8
+    driver-class-name: org.gjt.mm.mysql.Driver
+  zipkin:
+    base-url: http://localhost:9411 #将采集到的链路，提供给Zipkin控制台展示
+  sleuth:
+    sampler:
+      probability: 1 #采用率，在0-1之间，推荐0.5
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+eureka:
+  client:
+    fetch-registry: true #是否抓取已有的注册信息，默认为true，单节点无所谓，集群时必须设置为true才能配合Ribbon使用负载均衡
+    register-with-eureka: true #是否将自己注册进Eureka Server
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/

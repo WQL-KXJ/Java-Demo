@@ -1,0 +1,29 @@
+server:
+  port: 9098
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WQL-KXJ/SpringCloudConfig.git #GitHub上的仓库名字
+          search-paths:
+            - SpringCloudConfig #搜索的目录
+      label: master #读取的分支
+  rabbitmq:
+    username: admin
+    password: 123
+    host: 192.168.68.133
+    port: 5672
+
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

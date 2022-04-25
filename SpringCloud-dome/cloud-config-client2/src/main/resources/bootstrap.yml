@@ -1,0 +1,26 @@
+server:
+  port: 8089
+spring:
+  application:
+    name: cloud-config-client2
+  cloud:
+    config:
+      label: master #分支名称
+      name: cloudconfig #配置文件名称
+      profile: dev #后者名称，就是-后面的名称
+      uri: http://localhost:9098 #加起来就是http://localhost:9098/master/cloudconfig-dev.yml
+  rabbitmq:
+    username: admin
+    password: 123
+    host: 192.168.68.133
+    port: 5672
+eureka:
+  client:
+    fetch-registry: true
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

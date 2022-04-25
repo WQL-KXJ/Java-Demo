@@ -1,0 +1,35 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: cloud-stream-rabbitmq-consumer1
+  cloud:
+    stream:
+      binders: #配置要绑定的具体MQ的服务信息(这里使用RabbitMQ)
+        defaultRabbit: #表示组件名称
+          type: rabbit #mq的类型，这里为rabbit
+          environment: #环境配置
+            spring:
+              rabbitmq: #配置mq的连接信息
+                host: 192.168.68.133
+                port: 5672
+                username: admin
+                password: 123
+      bindings: #服务的整合处理
+        input: #通道名称，这里是消费者使用输入
+          destination: streamExchange #表示约定好的Exchange名称，没有就默认创建
+          content-type: application/json #设置信息的类型这里是json
+          binder: defaultRabbit #设置要绑定消息服务的具体设置
+          group: streamgroup
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true #是否将自己注册进Eureka Server
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"

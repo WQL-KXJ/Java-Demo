@@ -1,7 +1,157 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db26ebfc-7d5b-472d-9d5a-2604a2f45faf" name="Default Changelist" comment="" />
+    <list default="true" id="db26ebfc-7d5b-472d-9d5a-2604a2f45faf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-api-commons/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-api-commons/src/main/java/com/cloud/commons/entities/payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-center/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-center/src/main/java/com/cloud/ConfigMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-center/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client/src/main/java/com/cloud/ConfigClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client/src/main/java/com/cloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client2/src/main/java/com/cloud/ConfigClientMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client2/src/main/java/com/cloud/controller/ConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-config-client2/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consul-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consul-server/src/main/java/com/cloud/ConsulMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consul-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/ConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/src/main/java/com/wql/springcloud/consumer/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consume-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-feign-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-feign-order/src/main/java/com/cloud/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-feign-order/src/main/java/com/cloud/controller/OrderFeignController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-feign-order/src/main/java/com/cloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-feign-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-hystrix-order/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-hystrix-order/src/main/java/com/cloud/controller/hystrixorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-hystrix-order/src/main/java/com/cloud/service/feignserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-hystrix-order/src/main/java/com/cloud/service/serviceimpl/feignserviceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-consumer-hystrix-order/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-eureka-server1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-eureka-server1/src/main/java/com/cloud/EurekaServerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-eureka-server1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-eureka-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-eureka-server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-geteway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-geteway/src/main/java/com/cloud/gateway/GatewayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-geteway/src/main/java/com/cloud/gateway/config/GatwayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-geteway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-hystrix-dashboard/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-hystrix-dashboard/src/main/java/com/hystrixdashboard/HystrixDashboardMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-hystrix-dashboard/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/PayMentMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/service/serviceimpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/java/springcloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-payment-server1/src/main/resources/mapper/paymentmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-hystrix-payment/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-hystrix-payment/src/main/java/com/cloud/pymenthystrix/controller/paymentcontroll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-hystrix-payment/src/main/java/com/cloud/pymenthystrix/service/pymentservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-hystrix-payment/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/PayMentMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/dao/PaymentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/service/serviceimpl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/java/springcloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-provider-server2/src/main/resources/mapper/paymentmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/java/com/cloud/RibbonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/java/com/cloud/config/ApplicationContextConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/java/com/cloud/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/java/com/cloud/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/java/com/myrule/MySelfRlue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-ribbon-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-sleuth-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-sleuth-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer1/src/main/java/com/cloudstream/CloudStreamConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer1/src/main/java/com/cloudstream/service/StreamConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer2/src/main/java/com/cloudstream/StreamConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer2/src/main/java/com/cloudstream/service/StreamConsumerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-consumer2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/CloudStreamMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/controller/SendMessageController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/service/MessageProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/src/main/java/com/cloudstream/service/MessageProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-stream-rabbitmq-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-zookeeper-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-zookeeper-server/src/main/java/com/cloud/ZookeeperMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-zookeeper-server/src/main/java/com/cloud/controller/zoocontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloud-zookeeper-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-config/src/main/java/com/cloudalibaba/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-config/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-config/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/NacosConsumerMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-consumer/src/main/java/com/cloudalibaba/controller/OrderNacosController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-provider1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-provider1/src/main/java/com/cloudalibaba/NacosClientMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-provider1/src/main/java/com/cloudalibaba/controller/nacoscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacos-provider1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacox-provider2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacox-provider2/src/main/java/com/cloudalibaba/NacosProviderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacox-provider2/src/main/java/com/cloudalibaba/controller/nacoscontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-nacox-provider2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/SeataOrderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/dao/orderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/entity/orderpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/service/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/java/com/cloudalibaba/servicefeign/orderfeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client1/src/main/resources/mapper/ordermap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/SeataStockMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/controller/StockController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/dao/stockDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/entity/stockpojo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/StockServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/stockService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-seata-client2/src/main/resources/mapper/stockmap.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/SentinelGatewayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/config/GatewayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway/src/main/java/com/cloudalibaba/controller/SentinelGatewayController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway2/src/main/java/com/sentinelgateway/SentinelGateWayMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-gateway2/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-openfeign/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/SentinelOpenfeignMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/service/FallBackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-openfeign/src/main/java/com/cloudalibaba/service/OpenFeignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-openfeign/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/controller/customerBlockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/controller/sentinelcontroller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-service/src/main/java/com/cloudalibaba/util/CommonResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/cloudalibaba-sentinel-service/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../SpringCloud-dome/w.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +185,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -46,6 +199,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1kfz4e0JcUixPhTmxADCkLqNQUK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -55,7 +209,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MybatisPlus-dome/springboot_mybatisplus_dome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,6 +319,7 @@
       <workItem from="1639377770002" duration="5750000" />
       <workItem from="1639440883996" duration="5124000" />
       <workItem from="1639455219127" duration="38000" />
+      <workItem from="1650873974276" duration="74000" />
     </task>
     <servers />
   </component>

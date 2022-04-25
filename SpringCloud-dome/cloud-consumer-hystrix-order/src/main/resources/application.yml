@@ -1,0 +1,20 @@
+server:
+  port: 8087
+
+eureka:
+  client:
+    fetch-registry: true #是否抓取已有的注册信息，默认为true，单节点无所谓，集群时必须设置为true才能配合Ribbon使用负载均衡
+    register-with-eureka: true #是否将自己注册进Eureka Server
+    service-url:
+      defaultZone: http://eureka1.com:9090/eureka/,http://eureka2.com:9091/eureka/
+spring:
+  application:
+    name: cloud-consumer-hystrix-order
+
+ribbon:
+  ReadTimeout: 5000
+  ConnectTimeout: 5000
+
+feign:
+  hystrix:
+    enabled: true

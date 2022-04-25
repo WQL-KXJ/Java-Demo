@@ -1,0 +1,15 @@
+server:
+  port: 9090
+eureka:
+  instance:
+    hostname: eureka1.com #eureka实例的名称
+  client:
+    register-with-eureka: false #flase表示不向注册中心注册自己(服务端不用注册)
+    fetch-registry: false #flase表示自己就是注册中心，我的职责是维护实例，并不需要检索实例
+    service-url: #设置与Eureka Server交互和访问的地址，之后服务注册和调用都需要这个地址
+      defaultZone: http://qureka.com:9091/eureka/
+  server:
+    enable-self-preservation: false #关闭自我保护机制，默认为true开启
+    eviction-interval-timer-in-ms: 2000 #设置心跳检测的时间间隔
+
+
