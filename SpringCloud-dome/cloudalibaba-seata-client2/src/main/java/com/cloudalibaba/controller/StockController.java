@@ -17,7 +17,6 @@ public class StockController {
     public void StockConoller(@PathVariable("c") int c){
 
         boolean b = stockService.setStock(c);
-
     }
 
 

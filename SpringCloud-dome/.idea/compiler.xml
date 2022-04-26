@@ -45,7 +45,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="cloudalibaba-seata-test" options="-parameters" />
+      <module name="cloudalibaba-seata-test" options="" />
     </option>
   </component>
 </project>

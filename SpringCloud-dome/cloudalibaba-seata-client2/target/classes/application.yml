@@ -7,12 +7,32 @@ spring:
     nacos:
       discovery:
         server-addr: 192.168.68.134:8848
+    alibaba:
+      seata:
+        tx-service-group: my_test_tx_group
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource
+    #    type: com.alibaba.druid.pool.DruidDataSource
     username: root
-    password: 123
-    url: jdbc:mysql://localhost:3306/seata_repertory?useUnicode=true&characterEncoding=utf8
-    driver-class-name: org.gjt.mm.mysql.Driver
-    
+    password: 123456789
+    url: jdbc:mysql://192.168.68.134:3306/seata_repertory?useUnicode=true&characterEncoding=utf8
+    driver-class-name: com.mysql.jdbc.Driver  #org.gjt.mm.mysql.Driver
+seata: #配置seata
+  registry: #注册中心配置
+    type: nacos
+    consul:
+      server-addr: 192.168.68.134:8848 #nacos的服务地址
+      application: seata-server #seata在nacos中的服务名
+      username: nacos #nacos的用户名
+      password: nacos #nacos密码
+      group: SEATA_GROUP #seata服务所在的分组名称
+  config: #配置中心
+    type: nacos
+    nacos:
+      server-addr: 192.168.68.134:8848 #nacos的服务地址
+      username: nacos #nacos的用户名
+      password: nacos #nacos密码
+      group: SEATA_GROUP #seata配置所在的分组名称
+
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
