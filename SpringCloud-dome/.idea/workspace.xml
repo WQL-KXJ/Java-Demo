@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="408cc04b-d551-4245-921b-4032f505261d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/mapper/ordermap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client1/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client1/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/SeataStockMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/SeataStockMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/controller/StockController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/controller/StockController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/StockServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/java/com/cloudalibaba/service/StockServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/com/cloudalibaba/controller/StockController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/com/cloudalibaba/controller/StockController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/com/cloudalibaba/service/StockServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-client2/target/classes/com/cloudalibaba/service/StockServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/CloudalibabaSeataTestApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/CloudalibabaSeataTestApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/feignservice/orderfeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/feignservice/orderfeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/service/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/service/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis-dome/Mybatis项目/src/main/java/com/wqls/fqbm.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis-dome/Mybatis项目/src/main/java/com/wqls/fqbm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mybatis-dome/Mybatis项目/src/main/java/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Mybatis-dome/Mybatis项目/src/main/java/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis-dome/redid_springboot_dome/src/main/java/com/example/redid_springboot_dome/sckill/service/Seckillservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis-dome/redid_springboot_dome/src/main/java/com/example/redid_springboot_dome/sckill/service/Seckillservice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +71,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloudalibaba-seata-test/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM整合-dome/SpringMVCx项目" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -124,7 +106,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SeataStockMain">
+  <component name="RunManager" selected="Spring Boot.CloudalibabaSeataTestApplication">
     <configuration name="CloudalibabaSeataTestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloudalibaba-seata-test" />
       <extension name="coverage">
@@ -192,9 +174,9 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SentinelGatewayMain" />
+      <item itemvalue="Spring Boot.SeataStockMain" />
       <item itemvalue="Spring Boot.SeataOrderMain" />
       <item itemvalue="Spring Boot.PayMentMain2" />
-      <item itemvalue="Spring Boot.SeataStockMain" />
       <item itemvalue="Spring Boot.CloudalibabaSeataTestApplication" />
     </list>
     <recent_temporary>
@@ -217,11 +199,6 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
             </expand>
             <select />
@@ -263,6 +240,13 @@
       <workItem from="1650876451354" duration="1140000" />
       <workItem from="1650877971043" duration="520000" />
       <workItem from="1650878506982" duration="15274000" />
+      <workItem from="1650952452692" duration="1621000" />
+      <workItem from="1651237492636" duration="3354000" />
+      <workItem from="1651290465312" duration="2166000" />
+      <workItem from="1651505088664" duration="1473000" />
+      <workItem from="1651632642946" duration="25000" />
+      <workItem from="1655191618125" duration="187000" />
+      <workItem from="1655197455393" duration="61000" />
     </task>
     <servers />
   </component>
@@ -297,42 +281,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1650540904047" />
-    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1650878522580">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1655197511627">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1650878522580" />
-    <state width="1128" height="300" key="GridCell.Tab.0.bottom" timestamp="1650904011093">
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1655197511627" />
+    <state width="1128" height="391" key="GridCell.Tab.0.bottom" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.0.center" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.0.center" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.0.left" timestamp="1650904011092">
+    <state width="1128" height="391" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.0.left" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1650904011092" />
-    <state width="1128" height="300" key="GridCell.Tab.0.right" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.0.right" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.1.bottom" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.1.bottom" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.1.center" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.1.center" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.1.left" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.1.left" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
-    <state width="1128" height="300" key="GridCell.Tab.1.right" timestamp="1650904011093">
+    <state width="1128" height="391" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.1.right" timestamp="1651248506895">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1128" height="300" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1650904011093" />
+    <state width="1128" height="391" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.2.bottom" timestamp="1651248506896">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="391" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1651248506896" />
+    <state width="1128" height="391" key="GridCell.Tab.2.center" timestamp="1651248506895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="391" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.2.left" timestamp="1651248506895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="391" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
+    <state width="1128" height="391" key="GridCell.Tab.2.right" timestamp="1651248506895">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1128" height="391" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1651248506895" />
     <state x="431" y="116" key="NewModule_or_Project.wizard" timestamp="1649301040925">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -345,10 +345,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="471" y="115" key="SpringBootCustomization/0.0.1536.824@0.0.1536.824" timestamp="1650863317256" />
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1650878506976">
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1655197455355">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1650878506976" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1655197455355" />
     <state x="309" y="153" key="new project wizard" timestamp="1650878010416">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -373,6 +373,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="491" y="330" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1536.824@0.0.1536.824" timestamp="1648443402349" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/cloudalibaba-seata-test/src/main/java/com/example/cloudalibabaseatatest/controller/OrderController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>

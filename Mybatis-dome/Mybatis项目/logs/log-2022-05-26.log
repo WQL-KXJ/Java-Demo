@@ -1,0 +1,3 @@
+2022-05-26 09:00:04.140 [main] DEBUG com.wql.Iuser.update - ==>  Preparing: update fq set name='SB' where id=19 
+2022-05-26 09:00:04.171 [main] DEBUG com.wql.Iuser.update - ==> Parameters: 
+2022-05-26 09:00:04.182 [main] DEBUG com.wql.Iuser.update - <==    Updates: 1

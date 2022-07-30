@@ -14,19 +14,19 @@
         <module name="cloud-eureka-server1" />
         <module name="cloud-consumer-hystrix-order" />
         <module name="cloud-zookeeper-server" />
-        <module name="cloudalibaba-seata-client1" />
+        <module name="cloudalibaba-seata-client2" />
         <module name="cloud-sleuth-server" />
         <module name="cloud-hystrix-dashboard" />
-        <module name="cloud-stream-rabbitmq-consumer1" />
         <module name="cloud-consumer-feign-order" />
+        <module name="cloud-provider-hystrix-payment" />
         <module name="cloud-consul-server" />
         <module name="cloudalibaba-nacos-provider1" />
         <module name="cloud-ribbon-server" />
-        <module name="cloudalibaba-nacox-provider2" />
         <module name="cloud-provider-server2" />
         <module name="cloud-config-client2" />
-        <module name="cloud-provider-hystrix-payment" />
+        <module name="cloudalibaba-nacox-provider2" />
         <module name="cloud-config-center" />
+        <module name="cloudalibaba-sentinel-gateway" />
         <module name="cloud-config-client" />
         <module name="cloud-api-commons" />
         <module name="cloud-consume-order" />
@@ -38,8 +38,8 @@
         <module name="cloud-seata-wql" />
         <module name="cloudalibaba-sentinel-service" />
         <module name="cloud-stream-rabbitmq-consumer2" />
-        <module name="cloudalibaba-seata-client2" />
-        <module name="cloudalibaba-sentinel-gateway" />
+        <module name="cloud-stream-rabbitmq-consumer1" />
+        <module name="cloudalibaba-seata-client1" />
       </profile>
     </annotationProcessing>
   </component>

@@ -16,7 +16,7 @@ public class fqbm  implements  imbwql{
     List<bmswql> aw=null;
     public fqbm() throws IOException {
     }
-
+    
     public List<bmswql> select() {
         String sqlid="com.wqls.imbwql.wqlfq";
         SqlSession sqlSession = sessionFactory.openSession();

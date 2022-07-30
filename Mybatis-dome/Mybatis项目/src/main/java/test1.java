@@ -7,7 +7,6 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 public class test1 {
 
@@ -45,7 +44,9 @@ public class test1 {
          List<user> list = iuser.findall();
         for (user a:list){
             System.out.println(a);
-        }
-*/
+        }*/
+
+
+
     }
 }

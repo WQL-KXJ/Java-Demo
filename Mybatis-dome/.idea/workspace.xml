@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="02ad6da5-f445-45dc-bc7b-03bc5bee6a61" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Mybatis项目/src/main/java/com/wqls/fqbm.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis项目/src/main/java/com/wqls/fqbm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mybatis项目/src/main/java/test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Mybatis项目/src/main/java/test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringCloud-dome/w.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringCloud-dome/w.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redis-dome/redid_springboot_dome/src/main/java/com/example/redid_springboot_dome/sckill/service/Seckillservice.java" beforeDir="false" afterPath="$PROJECT_DIR$/../redis-dome/redid_springboot_dome/src/main/java/com/example/redid_springboot_dome/sckill/service/Seckillservice.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="29VDEiR25g78QLO4qhNkwOcfCES" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="02ad6da5-f445-45dc-bc7b-03bc5bee6a61" name="Default Changelist" comment="" />
+      <created>1653189249669</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653189249669</updated>
+      <workItem from="1653189252027" duration="17000" />
+      <workItem from="1654609595657" duration="34000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="171" key="FileChooserDialogImpl" timestamp="1653189267662">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1653189267662" />
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1653189252027">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1653189252027" />
+  </component>
+</project>
