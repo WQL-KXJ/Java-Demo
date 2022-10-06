@@ -1,0 +1,2 @@
+Elasticsearch: #自定义Host主机
+  Host: 192.168.68.134:9200
