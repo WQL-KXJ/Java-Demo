@@ -51,3 +51,5 @@
  **25，SpringCloud+SpringCloudAlibaba**
  
  **26，Swagger**
+ 
+  **26，MapStruct**
